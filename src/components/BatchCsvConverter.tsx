@@ -1,7 +1,7 @@
 "use client";
 
 import { useMemo, useState } from "react";
-import { MAX_NAME_LENGTH } from "@/lib/api-schemas";
+import { MAX_NAME_LENGTH } from "@/lib/limits";
 import { parseCsv, toCsv } from "@/lib/csv";
 
 const BATCH_CHUNK = 200;

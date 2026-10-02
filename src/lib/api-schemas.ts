@@ -1,7 +1,7 @@
 import { z } from "zod";
+import { MAX_BATCH_SIZE, MAX_NAME_LENGTH } from "./limits";
 
-export const MAX_NAME_LENGTH = 120;
-export const MAX_BATCH_SIZE = 200;
+export { MAX_BATCH_SIZE, MAX_NAME_LENGTH };
 
 export const convertBodySchema = z
   .object({
