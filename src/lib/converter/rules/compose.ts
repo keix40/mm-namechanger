@@ -60,7 +60,9 @@ export const ONSETS: OnsetMatch[] = [
   { roman: "m", consonant: "မ" },
   { roman: "y", consonant: "ယ" },
   { roman: "y", consonant: "ရ", weight: 0.85 },
+  /** Romanized "r" is ရ; ယ is only a lower-ranked alternative. */
   { roman: "r", consonant: "ရ" },
+  { roman: "r", consonant: "ယ", weight: 0.7 },
   { roman: "l", consonant: "လ" },
   { roman: "w", consonant: "ဝ" },
   { roman: "h", consonant: "ဟ" },
@@ -94,6 +96,8 @@ export const RHYMES: RhymePattern[] = [
   ...R(["oo"], [["ူး", 1], ["ူ", 0.9], ["ု", 0.85]]),
   ...R(["ue"], [["ူး", 1]]),
   ...R(["e"], [["ေ", 1], ["ဲ", 0.9]]),
+  /** English-style final "-y"/"-ie" in loan names (Mary, Cherry, Rosie). */
+  ...R(["y", "ie"], [["ီ", 0.9]]),
   ...R(["ay"], [["ေ", 1], ["ေး", 0.9]]),
   ...R(["ei"], [["ိ", 0.9], ["ေ", 0.85]]),
   ...R(["ae"], [["ဲ", 1], ["ယ်", 0.9]]),

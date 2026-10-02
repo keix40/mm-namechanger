@@ -42,6 +42,32 @@ describe("segmentation fallback", () => {
   });
 });
 
+describe("romanized r and loan-name segmentation", () => {
+  it("defaults r to ရ with ယ only as a lower-ranked rule alternative", async () => {
+    const { convertTokenByRules } = await import("@/lib/converter/rules");
+    const ra = convertTokenByRules("ra");
+    expect(ra[0]!.text).toBe("ရ");
+    const ya = ra.find((c) => c.text === "ယ");
+    expect(ya).toBeDefined();
+    expect(ya!.weight).toBeLessThan(ra[0]!.weight);
+    expect(convertName("Ra").best.myanmar).toBe("ရ");
+  });
+
+  it("keeps an r before a vowel as the next syllable's onset", () => {
+    expect(convertName("Tara").best.myanmar).toBe("တရ");
+    expect(convertName("Tharaphyu").best.myanmar).toBe("သာရဖြူ");
+  });
+
+  it("segments unknown joined loan names without mixing in Latin", () => {
+    for (const name of ["Cherrythin", "Winttharaphe", "Marylwin", "Cherrie Phyu"]) {
+      const best = convertName(name).best.myanmar;
+      expect(best).not.toMatch(/[a-z]/i);
+    }
+    expect(convertName("Cherrythin").best.myanmar).toBe("ချယ်ရီသင်း");
+    expect(convertName("Winttharaphe").best.myanmar).toBe("ဝင့်သရဖီ");
+  });
+});
+
 describe("Myanmar passthrough", () => {
   it("keeps well-formed Myanmar tokens in mixed input", () => {
     const r = convertName("မောင် Aung");
