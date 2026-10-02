@@ -122,6 +122,19 @@ export const GOLDEN: Record<string, string> = {
   "U Win": "ဦးဝင်း",
   "Mg Ba": "မောင်ဘ",
   "Ba Tin": "ဘတင်",
+  "Wint Cheery": "ဝင့်ချယ်ရီ",
+  "May Tharaphe Thin": "မေသရဖီသင်း",
+  "Thin Thin": "သင်းသင်း",
+  "May Thu": "မေသူ",
+  "Cherry Thin": "ချယ်ရီသင်း",
+  Tharaphi: "သရဖီ",
+  "Wint Wah": "ဝင့်ဝါ",
+  "Phyu Phyu": "ဖြူဖြူ",
+  "Cheri Win": "ချယ်ရီဝင်း",
+  "Thurapi Aung": "သရဖီအောင်",
+  "Mary Aung": "မေရီအောင်",
+  "Angel Phyu": "အိန်ဂျယ်ဖြူ",
+  "Thu Ra": "သူရ",
 };
 
 /** Canonical romanized syllable -> top Myanmar spelling (must be a dictionary hit). */
@@ -288,6 +301,11 @@ const CORE_GOLDEN_SYLLABLES: Record<string, string> = {
   Mingalar: "မင်္ဂလာ",
   Kalyar: "ကလျာ",
   Thitsar: "သစ္စာ",
+  Ra: "ရ",
+  Tharaphi: "သရဖီ",
+  Cherry: "ချယ်ရီ",
+  Mary: "မေရီ",
+  Angel: "အိန်ဂျယ်",
 };
 
 /** Secondary spellings offered as alternatives (weight 0.85). */
@@ -365,6 +383,9 @@ export const ROMAN_VARIANTS: Record<string, string[]> = {
   khine: ["khine"],
   nway: ["nway"],
   shwe: ["shwe", "shway"],
+  war: ["war", "wah"],
+  tharaphi: ["tharaphi", "tharaphe", "tharapi", "tharaphee", "thurapi"],
+  cherry: ["cherry", "cheery", "cheri", "chery", "cherri", "cherrie"],
 };
 
 /**

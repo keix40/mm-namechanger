@@ -1482,7 +1482,8 @@
     },
     {
       "variants": [
-        "war"
+        "war",
+        "wah"
       ],
       "spellings": [
         {
@@ -2054,6 +2055,75 @@
       "spellings": [
         {
           "text": "သစ္စာ",
+          "weight": 1
+        }
+      ],
+      "kind": "given"
+    },
+    {
+      "variants": [
+        "ra"
+      ],
+      "spellings": [
+        {
+          "text": "ရ",
+          "weight": 1
+        }
+      ],
+      "kind": "given"
+    },
+    {
+      "variants": [
+        "tharaphi",
+        "tharaphe",
+        "tharapi",
+        "tharaphee",
+        "thurapi"
+      ],
+      "spellings": [
+        {
+          "text": "သရဖီ",
+          "weight": 1
+        }
+      ],
+      "kind": "given"
+    },
+    {
+      "variants": [
+        "cherry",
+        "cheery",
+        "cheri",
+        "chery",
+        "cherri",
+        "cherrie"
+      ],
+      "spellings": [
+        {
+          "text": "ချယ်ရီ",
+          "weight": 1
+        }
+      ],
+      "kind": "given"
+    },
+    {
+      "variants": [
+        "mary"
+      ],
+      "spellings": [
+        {
+          "text": "မေရီ",
+          "weight": 1
+        }
+      ],
+      "kind": "given"
+    },
+    {
+      "variants": [
+        "angel"
+      ],
+      "spellings": [
+        {
+          "text": "အိန်ဂျယ်",
           "weight": 1
         }
       ],

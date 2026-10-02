@@ -10,6 +10,8 @@ function parseSyllable(normalized: string): SpellingCandidate[] {
   for (const onset of ONSETS) {
     if (!normalized.startsWith(onset.roman)) continue;
     let rest = normalized.slice(onset.roman.length);
+    // A bare "y" is a consonant, never a vowel on the carrier အ.
+    if (!onset.roman && rest.startsWith("y")) continue;
     let extra = "";
     // Optional wa-hswe medial ("lwin", "swa"); not after a bare vowel onset.
     if (onset.roman && rest.length > 1 && rest[0] === "w" && !(onset.medials ?? "").includes("ွ")) {

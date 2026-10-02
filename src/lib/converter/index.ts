@@ -54,6 +54,14 @@ function isWellFormedMyanmar(token: string): boolean {
 const MAX_PIECE_LENGTH = 10;
 const RULE_PIECE_FACTOR = 0.9;
 const EXTRA_PIECE_PENALTY = 0.97;
+/** A doubled consonant ("cherry", "anna") is read as one: skip the repeat. */
+const DOUBLED_CONSONANT_PENALTY = 0.98;
+/**
+ * "r" is never a real syllable final in Burmese romanization ("ar" = ာ), so when
+ * a vowel-initial piece follows a piece ending in "r" ("tar" + "a"), the "r" was
+ * almost certainly the next syllable's onset ("ta" + "ra").
+ */
+const SWALLOWED_R_PENALTY = 0.8;
 
 /**
  * Fallback for tokens missing from the dictionary: split the romanized token into
@@ -63,29 +71,46 @@ const EXTRA_PIECE_PENALTY = 0.97;
 function segmentToken(token: string): SpellingCandidate[] {
   const s = normalizeRomanToken(token);
   if (!s || s.length > 60 || !/^[a-z]+$/.test(s)) return [];
-  type Partial = { text: string; score: number; pieces: number };
+  type Partial = { text: string; score: number; pieces: number; endsWithR: boolean };
   const best: Partial[][] = Array.from({ length: s.length + 1 }, () => []);
-  best[0] = [{ text: "", score: 1, pieces: 0 }];
+  best[0] = [{ text: "", score: 1, pieces: 0, endsWithR: false }];
+  const keepBest = (j: number) => {
+    best[j]!.sort((a, b) => b.score - a.score);
+    best[j]!.splice(4);
+  };
   for (let i = 0; i < s.length; i++) {
     if (!best[i]!.length) continue;
+    if (i > 0 && s[i] === s[i + 1] && !/[aeiouwy]/.test(s[i]!)) {
+      for (const prev of best[i]!) {
+        best[i + 1]!.push({ ...prev, score: prev.score * DOUBLED_CONSONANT_PENALTY, endsWithR: false });
+      }
+      keepBest(i + 1);
+    }
     for (let j = i + 1; j <= Math.min(s.length, i + MAX_PIECE_LENGTH); j++) {
       const piece = s.slice(i, j);
       const dict = piece.length >= 2 ? lookupMap.get(piece)?.spellings : undefined;
       const cands = dict?.length
         ? dict
         : convertTokenByRules(piece).map((c) => ({ text: c.text, weight: c.weight * RULE_PIECE_FACTOR }));
+      const vowelInitial = /^[aeiou]/.test(piece);
       for (const prev of best[i]!) {
+        const penalty =
+          (prev.pieces ? EXTRA_PIECE_PENALTY : 1) * (prev.endsWithR && vowelInitial ? SWALLOWED_R_PENALTY : 1);
         for (const c of cands.slice(0, 3)) {
-          const score = prev.score * c.weight * (prev.pieces ? EXTRA_PIECE_PENALTY : 1);
-          best[j]!.push({ text: prev.text + c.text, score, pieces: prev.pieces + 1 });
+          best[j]!.push({
+            text: prev.text + c.text,
+            score: prev.score * c.weight * penalty,
+            pieces: prev.pieces + 1,
+            endsWithR: piece.endsWith("r"),
+          });
         }
       }
-      best[j]!.sort((a, b) => b.score - a.score);
-      best[j]!.splice(4);
+      keepBest(j);
     }
   }
   const dedup = new Map<string, number>();
   for (const p of best[s.length]!) {
+    if (!p.pieces) continue;
     const weight = Math.round(Math.pow(p.score, 1 / p.pieces) * RULE_PIECE_FACTOR * 1000) / 1000;
     if ((dedup.get(p.text) ?? 0) < weight) dedup.set(p.text, weight);
   }
