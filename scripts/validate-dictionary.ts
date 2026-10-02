@@ -1,9 +1,10 @@
+import { execSync } from "node:child_process";
 import { readFileSync } from "node:fs";
 import path from "node:path";
 import type { DictionaryFile } from "../src/lib/converter/types";
-import { assertUnicodeMyanmar } from "../src/lib/converter/unicode";
+import { assertUnicodeMyanmar, validateMyanmarOrthography } from "../src/lib/converter/unicode";
 
-const dictPath = path.join(process.cwd(), "data", "dictionary.json");
+const dictPath = path.join(process.cwd(), "data/dictionary.json");
 const raw = readFileSync(dictPath, "utf8");
 const file = JSON.parse(raw) as DictionaryFile;
 
@@ -17,10 +18,19 @@ for (const entry of file.entries) {
   }
   for (const sp of entry.spellings) {
     assertUnicodeMyanmar(sp.text, entry.variants[0] ?? "unknown");
+    const strict = validateMyanmarOrthography(sp.text);
+    if (strict.length) {
+      throw new Error(`Strict orthography failed for ${entry.variants[0]}: ${strict.join("; ")}`);
+    }
     if (sp.weight <= 0 || sp.weight > 1) {
       throw new Error(`Invalid weight for ${entry.variants[0]}: ${sp.weight}`);
     }
   }
 }
 
-console.log(`Dictionary OK: ${file.entries.length} entries`);
+execSync("python3 scripts/strict-unicode-check.py data/dictionary.json", {
+  stdio: "inherit",
+  cwd: process.cwd(),
+});
+
+console.log(`Dictionary OK: ${file.entries.length} entries (strict checker passed)`);

@@ -1,17 +1,11 @@
 "use client";
 
 import { useMemo, useState } from "react";
+import { MAX_NAME_LENGTH } from "@/lib/api-schemas";
+import { parseCsv, toCsv } from "@/lib/csv";
 
-function parseCsv(text: string): { headers: string[]; rows: string[][] } {
-  const lines = text
-    .split(/\r?\n/)
-    .map((l) => l.trim())
-    .filter(Boolean);
-  if (!lines.length) return { headers: [], rows: [] };
-  const headers = lines[0]!.split(",").map((h) => h.trim());
-  const rows = lines.slice(1).map((line) => line.split(",").map((c) => c.trim()));
-  return { headers, rows };
-}
+const BATCH_CHUNK = 200;
+const MAX_ROWS = 2000;
 
 export function BatchCsvConverter() {
   const [csvText, setCsvText] = useState("");
@@ -35,23 +29,37 @@ export function BatchCsvConverter() {
       setError(`Column "${col}" not found.`);
       return;
     }
-    const names = parsed.rows.map((r) => r[idx]).filter((n): n is string => Boolean(n?.trim()));
+    const rowNames = parsed.rows.map((r) => (r[idx] ?? "").trim());
+    const names = [...new Set(rowNames.filter((n) => n && n.length <= MAX_NAME_LENGTH))];
     if (!names.length) {
       setError("No names found in selected column.");
       return;
     }
+    if (parsed.rows.length > MAX_ROWS) {
+      setError(`At most ${MAX_ROWS} rows per batch.`);
+      return;
+    }
     setBusy(true);
     try {
-      const res = await fetch("/api/convert", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ names }),
-      });
-      const data = await res.json();
-      if (!res.ok) throw new Error(data.error ?? "Batch conversion failed");
+      const byName = new Map<string, { myanmar: string; confidence: number }>();
+      for (let i = 0; i < names.length; i += BATCH_CHUNK) {
+        const chunk = names.slice(i, i + BATCH_CHUNK);
+        const res = await fetch("/api/convert", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ names: chunk }),
+        });
+        const data = await res.json();
+        if (!res.ok) throw new Error(data.error ?? "Batch conversion failed");
+        chunk.forEach((n, k) => {
+          const best = data.results?.[k]?.best;
+          if (best) byName.set(n, { myanmar: best.myanmar, confidence: best.confidence });
+        });
+      }
+      // Align results by row (blank cells stay blank instead of shifting later rows).
       const outRows = parsed.rows.map((row, i) => {
-        const conv = data.results[i];
-        return [...row, conv?.best?.myanmar ?? "", String(conv?.best?.confidence ?? "")];
+        const conv = byName.get(rowNames[i]!);
+        return [...row, conv?.myanmar ?? "", conv ? conv.confidence.toFixed(2) : ""];
       });
       setPreview([[...columns, "myanmar", "confidence"], ...outRows]);
     } catch (e) {
@@ -63,7 +71,7 @@ export function BatchCsvConverter() {
 
   function download() {
     if (!preview?.length) return;
-    const body = preview.map((row) => row.map((c) => `"${c.replace(/"/g, '""')}"`).join(",")).join("\n");
+    const body = toCsv(preview);
     const blob = new Blob([body], { type: "text/csv;charset=utf-8" });
     const url = URL.createObjectURL(blob);
     const a = document.createElement("a");

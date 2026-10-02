@@ -24,3 +24,14 @@ This project’s dictionary (`dictionary.json`) is a curated set of romanized va
 pnpm exec tsx scripts/generate-dictionary.ts
 pnpm validate:dictionary
 ```
+
+The generator reads curated syllables from `src/lib/converter/golden-expected.ts` and
+`src/lib/converter/extended-syllables.ts` (extended entries are rule-generated then
+filtered with `validateMyanmarOrthography`). CI runs the same checks plus
+`scripts/strict-unicode-check.py` (reviewer-independent strict orthography validator).
+
+## Extended syllables
+
+Additional roman keys in `extended-syllables.ts` were validated against the strict
+orthography engine; ambiguous keys that collide with core titles (e.g. `nan` for
+`Nang`) are skipped during generation so curated titles win.

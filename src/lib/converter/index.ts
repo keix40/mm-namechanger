@@ -2,6 +2,7 @@ import dictionaryData from "@data/dictionary.json";
 import { normalizeRomanToken } from "./normalize";
 import { convertTokenByRules } from "./rules";
 import { tokenizeName } from "./tokenize";
+import { containsMyanmar, isLikelyZawgyi, validateMyanmarOrthography } from "./unicode";
 import {
   DictionaryFile,
   NameConversionResult,
@@ -43,6 +44,52 @@ function lookupDictionary(token: string): SpellingCandidate[] | null {
   const key = normalizeRomanToken(token);
   const hit = lookupMap.get(key);
   return hit?.spellings.length ? hit.spellings : null;
+}
+
+/** Tokens already written in well-formed Myanmar Unicode pass through unchanged. */
+function isWellFormedMyanmar(token: string): boolean {
+  return containsMyanmar(token) && !isLikelyZawgyi(token) && validateMyanmarOrthography(token).length === 0;
+}
+
+const MAX_PIECE_LENGTH = 10;
+const RULE_PIECE_FACTOR = 0.9;
+const EXTRA_PIECE_PENALTY = 0.97;
+
+/**
+ * Fallback for tokens missing from the dictionary: split the romanized token into
+ * dictionary syllables and/or rule-parsed syllables ("nilar" -> ni + lar) and keep
+ * the best-scoring segmentations.
+ */
+function segmentToken(token: string): SpellingCandidate[] {
+  const s = normalizeRomanToken(token);
+  if (!s || s.length > 60 || !/^[a-z]+$/.test(s)) return [];
+  type Partial = { text: string; score: number; pieces: number };
+  const best: Partial[][] = Array.from({ length: s.length + 1 }, () => []);
+  best[0] = [{ text: "", score: 1, pieces: 0 }];
+  for (let i = 0; i < s.length; i++) {
+    if (!best[i]!.length) continue;
+    for (let j = i + 1; j <= Math.min(s.length, i + MAX_PIECE_LENGTH); j++) {
+      const piece = s.slice(i, j);
+      const dict = piece.length >= 2 ? lookupMap.get(piece)?.spellings : undefined;
+      const cands = dict?.length
+        ? dict
+        : convertTokenByRules(piece).map((c) => ({ text: c.text, weight: c.weight * RULE_PIECE_FACTOR }));
+      for (const prev of best[i]!) {
+        for (const c of cands.slice(0, 3)) {
+          const score = prev.score * c.weight * (prev.pieces ? EXTRA_PIECE_PENALTY : 1);
+          best[j]!.push({ text: prev.text + c.text, score, pieces: prev.pieces + 1 });
+        }
+      }
+      best[j]!.sort((a, b) => b.score - a.score);
+      best[j]!.splice(4);
+    }
+  }
+  const dedup = new Map<string, number>();
+  for (const p of best[s.length]!) {
+    const weight = Math.round(Math.pow(p.score, 1 / p.pieces) * RULE_PIECE_FACTOR * 1000) / 1000;
+    if ((dedup.get(p.text) ?? 0) < weight) dedup.set(p.text, weight);
+  }
+  return [...dedup.entries()].map(([text, weight]) => ({ text, weight })).sort((a, b) => b.weight - a.weight);
 }
 
 function toTokenConversion(roman: string, candidates: SpellingCandidate[], source: "dictionary" | "rules"): TokenConversion {
@@ -94,7 +141,9 @@ export function convertName(input: string, options?: { maxAlternatives?: number 
     if (dict) {
       perTokenOptions.push(toTokenConversion(token, dict, "dictionary"));
     } else {
-      const ruled = convertTokenByRules(token).filter((c) => c.weight >= 0.35);
+      const ruled = isWellFormedMyanmar(token)
+        ? [{ text: token, weight: 0.95 }]
+        : segmentToken(token).filter((c) => c.weight >= 0.35);
       if (ruled.length === 0) {
         perTokenOptions.push({
           roman: token,
@@ -115,7 +164,7 @@ export function convertName(input: string, options?: { maxAlternatives?: number 
 
   const alternatives = beams.map((beam) => ({
     myanmar: beam.tokens.map((t) => t.myanmar).join(""),
-    confidence: Math.min(1, Math.pow(beam.score, 1 / Math.max(1, beam.tokens.length))),
+    confidence: Math.round(Math.min(1, Math.pow(beam.score, 1 / Math.max(1, beam.tokens.length))) * 1000) / 1000,
     tokens: beam.tokens,
   }));
 

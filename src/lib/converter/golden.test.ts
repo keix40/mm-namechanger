@@ -12,6 +12,14 @@ describe("golden name conversions", () => {
   }
 });
 
+describe("golden Yint alternatives", () => {
+  it("offers ယဉ့် as alternative for Yint", () => {
+    const r = convertName("Yint");
+    expect(r.best.myanmar).toBe(GOLDEN_SYLLABLES.Yint);
+    expect(r.alternatives.some((a) => a.myanmar === "ယဉ့်")).toBe(true);
+  });
+});
+
 describe("golden syllable dictionary hits", () => {
   for (const [roman, expected] of Object.entries(GOLDEN_SYLLABLES)) {
     it(`"${roman}"`, () => {

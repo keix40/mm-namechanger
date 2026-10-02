@@ -3,6 +3,2262 @@
   "entries": [
     {
       "variants": [
+        "ah"
+      ],
+      "spellings": [
+        {
+          "text": "အား",
+          "weight": 1
+        }
+      ],
+      "kind": "given"
+    },
+    {
+      "variants": [
+        "an"
+      ],
+      "spellings": [
+        {
+          "text": "အန်း",
+          "weight": 1
+        }
+      ],
+      "kind": "given"
+    },
+    {
+      "variants": [
+        "ar"
+      ],
+      "spellings": [
+        {
+          "text": "အာ",
+          "weight": 1
+        }
+      ],
+      "kind": "given"
+    },
+    {
+      "variants": [
+        "at"
+      ],
+      "spellings": [
+        {
+          "text": "အတ်",
+          "weight": 1
+        }
+      ],
+      "kind": "given"
+    },
+    {
+      "variants": [
+        "aw"
+      ],
+      "spellings": [
+        {
+          "text": "အော်",
+          "weight": 1
+        }
+      ],
+      "kind": "given"
+    },
+    {
+      "variants": [
+        "ay"
+      ],
+      "spellings": [
+        {
+          "text": "အေ",
+          "weight": 1
+        }
+      ],
+      "kind": "given"
+    },
+    {
+      "variants": [
+        "ban"
+      ],
+      "spellings": [
+        {
+          "text": "ဗန်း",
+          "weight": 1
+        }
+      ],
+      "kind": "given"
+    },
+    {
+      "variants": [
+        "bay"
+      ],
+      "spellings": [
+        {
+          "text": "ဗေ",
+          "weight": 1
+        }
+      ],
+      "kind": "given"
+    },
+    {
+      "variants": [
+        "bel"
+      ],
+      "spellings": [
+        {
+          "text": "ဗယ်",
+          "weight": 1
+        }
+      ],
+      "kind": "given"
+    },
+    {
+      "variants": [
+        "bet"
+      ],
+      "spellings": [
+        {
+          "text": "ဗက်",
+          "weight": 1
+        }
+      ],
+      "kind": "given"
+    },
+    {
+      "variants": [
+        "bin"
+      ],
+      "spellings": [
+        {
+          "text": "ဗင်း",
+          "weight": 1
+        }
+      ],
+      "kind": "given"
+    },
+    {
+      "variants": [
+        "boon"
+      ],
+      "spellings": [
+        {
+          "text": "ဗွန်း",
+          "weight": 1
+        }
+      ],
+      "kind": "given"
+    },
+    {
+      "variants": [
+        "char"
+      ],
+      "spellings": [
+        {
+          "text": "ချာ",
+          "weight": 1
+        }
+      ],
+      "kind": "given"
+    },
+    {
+      "variants": [
+        "che"
+      ],
+      "spellings": [
+        {
+          "text": "ချေ",
+          "weight": 1
+        }
+      ],
+      "kind": "given"
+    },
+    {
+      "variants": [
+        "chi"
+      ],
+      "spellings": [
+        {
+          "text": "ချိ",
+          "weight": 1
+        }
+      ],
+      "kind": "given"
+    },
+    {
+      "variants": [
+        "chin"
+      ],
+      "spellings": [
+        {
+          "text": "ချင်း",
+          "weight": 1
+        }
+      ],
+      "kind": "given"
+    },
+    {
+      "variants": [
+        "chon"
+      ],
+      "spellings": [
+        {
+          "text": "ချုန်း",
+          "weight": 1
+        }
+      ],
+      "kind": "given"
+    },
+    {
+      "variants": [
+        "dae"
+      ],
+      "spellings": [
+        {
+          "text": "ဒဲ",
+          "weight": 1
+        }
+      ],
+      "kind": "given"
+    },
+    {
+      "variants": [
+        "dan"
+      ],
+      "spellings": [
+        {
+          "text": "ဒန်း",
+          "weight": 1
+        }
+      ],
+      "kind": "given"
+    },
+    {
+      "variants": [
+        "day"
+      ],
+      "spellings": [
+        {
+          "text": "ဒေ",
+          "weight": 1
+        }
+      ],
+      "kind": "given"
+    },
+    {
+      "variants": [
+        "de"
+      ],
+      "spellings": [
+        {
+          "text": "ဒေ",
+          "weight": 1
+        }
+      ],
+      "kind": "given"
+    },
+    {
+      "variants": [
+        "di"
+      ],
+      "spellings": [
+        {
+          "text": "ဒိ",
+          "weight": 1
+        }
+      ],
+      "kind": "given"
+    },
+    {
+      "variants": [
+        "do"
+      ],
+      "spellings": [
+        {
+          "text": "ဒို",
+          "weight": 1
+        }
+      ],
+      "kind": "given"
+    },
+    {
+      "variants": [
+        "don"
+      ],
+      "spellings": [
+        {
+          "text": "ဒုန်း",
+          "weight": 1
+        }
+      ],
+      "kind": "given"
+    },
+    {
+      "variants": [
+        "dut"
+      ],
+      "spellings": [
+        {
+          "text": "ဒုတ်",
+          "weight": 1
+        }
+      ],
+      "kind": "given"
+    },
+    {
+      "variants": [
+        "fan"
+      ],
+      "spellings": [
+        {
+          "text": "ဖန်း",
+          "weight": 1
+        }
+      ],
+      "kind": "given"
+    },
+    {
+      "variants": [
+        "fay"
+      ],
+      "spellings": [
+        {
+          "text": "ဖေ",
+          "weight": 1
+        }
+      ],
+      "kind": "given"
+    },
+    {
+      "variants": [
+        "fei"
+      ],
+      "spellings": [
+        {
+          "text": "ဖိ",
+          "weight": 1
+        }
+      ],
+      "kind": "given"
+    },
+    {
+      "variants": [
+        "fi"
+      ],
+      "spellings": [
+        {
+          "text": "ဖိ",
+          "weight": 1
+        }
+      ],
+      "kind": "given"
+    },
+    {
+      "variants": [
+        "fon"
+      ],
+      "spellings": [
+        {
+          "text": "ဖုန်း",
+          "weight": 1
+        }
+      ],
+      "kind": "given"
+    },
+    {
+      "variants": [
+        "gan"
+      ],
+      "spellings": [
+        {
+          "text": "ဂန်း",
+          "weight": 1
+        }
+      ],
+      "kind": "given"
+    },
+    {
+      "variants": [
+        "gar"
+      ],
+      "spellings": [
+        {
+          "text": "ဂါ",
+          "weight": 1
+        }
+      ],
+      "kind": "given"
+    },
+    {
+      "variants": [
+        "go"
+      ],
+      "spellings": [
+        {
+          "text": "ဂို",
+          "weight": 1
+        }
+      ],
+      "kind": "given"
+    },
+    {
+      "variants": [
+        "gon"
+      ],
+      "spellings": [
+        {
+          "text": "ဂုန်း",
+          "weight": 1
+        }
+      ],
+      "kind": "given"
+    },
+    {
+      "variants": [
+        "het"
+      ],
+      "spellings": [
+        {
+          "text": "ဟက်",
+          "weight": 1
+        }
+      ],
+      "kind": "given"
+    },
+    {
+      "variants": [
+        "hin"
+      ],
+      "spellings": [
+        {
+          "text": "ဟင်း",
+          "weight": 1
+        }
+      ],
+      "kind": "given"
+    },
+    {
+      "variants": [
+        "hit"
+      ],
+      "spellings": [
+        {
+          "text": "ဟစ်",
+          "weight": 1
+        }
+      ],
+      "kind": "given"
+    },
+    {
+      "variants": [
+        "hline"
+      ],
+      "spellings": [
+        {
+          "text": "လှိုင်",
+          "weight": 1
+        }
+      ],
+      "kind": "given"
+    },
+    {
+      "variants": [
+        "hman"
+      ],
+      "spellings": [
+        {
+          "text": "မှန်း",
+          "weight": 1
+        }
+      ],
+      "kind": "given"
+    },
+    {
+      "variants": [
+        "hmone"
+      ],
+      "spellings": [
+        {
+          "text": "မှုန်း",
+          "weight": 1
+        }
+      ],
+      "kind": "given"
+    },
+    {
+      "variants": [
+        "hmu"
+      ],
+      "spellings": [
+        {
+          "text": "မှု",
+          "weight": 1
+        }
+      ],
+      "kind": "given"
+    },
+    {
+      "variants": [
+        "hsan"
+      ],
+      "spellings": [
+        {
+          "text": "ဆန်း",
+          "weight": 1
+        }
+      ],
+      "kind": "given"
+    },
+    {
+      "variants": [
+        "jin"
+      ],
+      "spellings": [
+        {
+          "text": "ဂျင်း",
+          "weight": 1
+        }
+      ],
+      "kind": "given"
+    },
+    {
+      "variants": [
+        "jo"
+      ],
+      "spellings": [
+        {
+          "text": "ဂျို",
+          "weight": 1
+        }
+      ],
+      "kind": "given"
+    },
+    {
+      "variants": [
+        "jon"
+      ],
+      "spellings": [
+        {
+          "text": "ဂျုန်း",
+          "weight": 1
+        }
+      ],
+      "kind": "given"
+    },
+    {
+      "variants": [
+        "jun"
+      ],
+      "spellings": [
+        {
+          "text": "ဂျွန်း",
+          "weight": 1
+        }
+      ],
+      "kind": "given"
+    },
+    {
+      "variants": [
+        "kan"
+      ],
+      "spellings": [
+        {
+          "text": "ကန်း",
+          "weight": 1
+        }
+      ],
+      "kind": "given"
+    },
+    {
+      "variants": [
+        "kar"
+      ],
+      "spellings": [
+        {
+          "text": "ကာ",
+          "weight": 1
+        }
+      ],
+      "kind": "given"
+    },
+    {
+      "variants": [
+        "kel"
+      ],
+      "spellings": [
+        {
+          "text": "ကယ်",
+          "weight": 1
+        }
+      ],
+      "kind": "given"
+    },
+    {
+      "variants": [
+        "ket"
+      ],
+      "spellings": [
+        {
+          "text": "ကက်",
+          "weight": 1
+        }
+      ],
+      "kind": "given"
+    },
+    {
+      "variants": [
+        "ki"
+      ],
+      "spellings": [
+        {
+          "text": "ကိ",
+          "weight": 1
+        }
+      ],
+      "kind": "given"
+    },
+    {
+      "variants": [
+        "kit"
+      ],
+      "spellings": [
+        {
+          "text": "ကစ်",
+          "weight": 1
+        }
+      ],
+      "kind": "given"
+    },
+    {
+      "variants": [
+        "kyee"
+      ],
+      "spellings": [
+        {
+          "text": "ကျီ",
+          "weight": 1
+        }
+      ],
+      "kind": "given"
+    },
+    {
+      "variants": [
+        "lan"
+      ],
+      "spellings": [
+        {
+          "text": "လန်း",
+          "weight": 1
+        }
+      ],
+      "kind": "given"
+    },
+    {
+      "variants": [
+        "lat"
+      ],
+      "spellings": [
+        {
+          "text": "လတ်",
+          "weight": 1
+        }
+      ],
+      "kind": "given"
+    },
+    {
+      "variants": [
+        "law"
+      ],
+      "spellings": [
+        {
+          "text": "လော်",
+          "weight": 1
+        }
+      ],
+      "kind": "given"
+    },
+    {
+      "variants": [
+        "let"
+      ],
+      "spellings": [
+        {
+          "text": "လက်",
+          "weight": 1
+        }
+      ],
+      "kind": "given"
+    },
+    {
+      "variants": [
+        "li"
+      ],
+      "spellings": [
+        {
+          "text": "လိ",
+          "weight": 1
+        }
+      ],
+      "kind": "given"
+    },
+    {
+      "variants": [
+        "lit"
+      ],
+      "spellings": [
+        {
+          "text": "လစ်",
+          "weight": 1
+        }
+      ],
+      "kind": "given"
+    },
+    {
+      "variants": [
+        "lon"
+      ],
+      "spellings": [
+        {
+          "text": "လုန်း",
+          "weight": 1
+        }
+      ],
+      "kind": "given"
+    },
+    {
+      "variants": [
+        "lut"
+      ],
+      "spellings": [
+        {
+          "text": "လုတ်",
+          "weight": 1
+        }
+      ],
+      "kind": "given"
+    },
+    {
+      "variants": [
+        "man"
+      ],
+      "spellings": [
+        {
+          "text": "မန်း",
+          "weight": 1
+        }
+      ],
+      "kind": "given"
+    },
+    {
+      "variants": [
+        "mann"
+      ],
+      "spellings": [
+        {
+          "text": "မန်း",
+          "weight": 1
+        }
+      ],
+      "kind": "given"
+    },
+    {
+      "variants": [
+        "mat"
+      ],
+      "spellings": [
+        {
+          "text": "မတ်",
+          "weight": 1
+        }
+      ],
+      "kind": "given"
+    },
+    {
+      "variants": [
+        "mel"
+      ],
+      "spellings": [
+        {
+          "text": "မယ်",
+          "weight": 1
+        }
+      ],
+      "kind": "given"
+    },
+    {
+      "variants": [
+        "met"
+      ],
+      "spellings": [
+        {
+          "text": "မက်",
+          "weight": 1
+        }
+      ],
+      "kind": "given"
+    },
+    {
+      "variants": [
+        "mit"
+      ],
+      "spellings": [
+        {
+          "text": "မစ်",
+          "weight": 1
+        }
+      ],
+      "kind": "given"
+    },
+    {
+      "variants": [
+        "mun"
+      ],
+      "spellings": [
+        {
+          "text": "မွန်း",
+          "weight": 1
+        }
+      ],
+      "kind": "given"
+    },
+    {
+      "variants": [
+        "mut"
+      ],
+      "spellings": [
+        {
+          "text": "မုတ်",
+          "weight": 1
+        }
+      ],
+      "kind": "given"
+    },
+    {
+      "variants": [
+        "nat"
+      ],
+      "spellings": [
+        {
+          "text": "နတ်",
+          "weight": 1
+        }
+      ],
+      "kind": "given"
+    },
+    {
+      "variants": [
+        "ne"
+      ],
+      "spellings": [
+        {
+          "text": "နေ",
+          "weight": 1
+        }
+      ],
+      "kind": "given"
+    },
+    {
+      "variants": [
+        "nel"
+      ],
+      "spellings": [
+        {
+          "text": "နယ်",
+          "weight": 1
+        }
+      ],
+      "kind": "given"
+    },
+    {
+      "variants": [
+        "net"
+      ],
+      "spellings": [
+        {
+          "text": "နက်",
+          "weight": 1
+        }
+      ],
+      "kind": "given"
+    },
+    {
+      "variants": [
+        "ngo"
+      ],
+      "spellings": [
+        {
+          "text": "ငို",
+          "weight": 1
+        }
+      ],
+      "kind": "given"
+    },
+    {
+      "variants": [
+        "ngu"
+      ],
+      "spellings": [
+        {
+          "text": "ငု",
+          "weight": 1
+        }
+      ],
+      "kind": "given"
+    },
+    {
+      "variants": [
+        "nit"
+      ],
+      "spellings": [
+        {
+          "text": "နစ်",
+          "weight": 1
+        }
+      ],
+      "kind": "given"
+    },
+    {
+      "variants": [
+        "non"
+      ],
+      "spellings": [
+        {
+          "text": "နုန်း",
+          "weight": 1
+        }
+      ],
+      "kind": "given"
+    },
+    {
+      "variants": [
+        "nun"
+      ],
+      "spellings": [
+        {
+          "text": "နွန်း",
+          "weight": 1
+        }
+      ],
+      "kind": "given"
+    },
+    {
+      "variants": [
+        "nut"
+      ],
+      "spellings": [
+        {
+          "text": "နုတ်",
+          "weight": 1
+        }
+      ],
+      "kind": "given"
+    },
+    {
+      "variants": [
+        "on"
+      ],
+      "spellings": [
+        {
+          "text": "အုန်း",
+          "weight": 1
+        }
+      ],
+      "kind": "given"
+    },
+    {
+      "variants": [
+        "pa"
+      ],
+      "spellings": [
+        {
+          "text": "ပ",
+          "weight": 1
+        }
+      ],
+      "kind": "given"
+    },
+    {
+      "variants": [
+        "pal"
+      ],
+      "spellings": [
+        {
+          "text": "ပယ်",
+          "weight": 1
+        }
+      ],
+      "kind": "given"
+    },
+    {
+      "variants": [
+        "pan"
+      ],
+      "spellings": [
+        {
+          "text": "ပန်း",
+          "weight": 1
+        }
+      ],
+      "kind": "given"
+    },
+    {
+      "variants": [
+        "par"
+      ],
+      "spellings": [
+        {
+          "text": "ပါ",
+          "weight": 1
+        }
+      ],
+      "kind": "given"
+    },
+    {
+      "variants": [
+        "pat"
+      ],
+      "spellings": [
+        {
+          "text": "ပတ်",
+          "weight": 1
+        }
+      ],
+      "kind": "given"
+    },
+    {
+      "variants": [
+        "paw"
+      ],
+      "spellings": [
+        {
+          "text": "ပေါ်",
+          "weight": 1
+        }
+      ],
+      "kind": "given"
+    },
+    {
+      "variants": [
+        "pay"
+      ],
+      "spellings": [
+        {
+          "text": "ပေ",
+          "weight": 1
+        }
+      ],
+      "kind": "given"
+    },
+    {
+      "variants": [
+        "pe"
+      ],
+      "spellings": [
+        {
+          "text": "ပေ",
+          "weight": 1
+        }
+      ],
+      "kind": "given"
+    },
+    {
+      "variants": [
+        "pel"
+      ],
+      "spellings": [
+        {
+          "text": "ပယ်",
+          "weight": 1
+        }
+      ],
+      "kind": "given"
+    },
+    {
+      "variants": [
+        "pet"
+      ],
+      "spellings": [
+        {
+          "text": "ပက်",
+          "weight": 1
+        }
+      ],
+      "kind": "given"
+    },
+    {
+      "variants": [
+        "pha"
+      ],
+      "spellings": [
+        {
+          "text": "ဖ",
+          "weight": 1
+        }
+      ],
+      "kind": "given"
+    },
+    {
+      "variants": [
+        "pi"
+      ],
+      "spellings": [
+        {
+          "text": "ပိ",
+          "weight": 1
+        }
+      ],
+      "kind": "given"
+    },
+    {
+      "variants": [
+        "pit"
+      ],
+      "spellings": [
+        {
+          "text": "ပစ်",
+          "weight": 1
+        }
+      ],
+      "kind": "given"
+    },
+    {
+      "variants": [
+        "po"
+      ],
+      "spellings": [
+        {
+          "text": "ပို",
+          "weight": 1
+        }
+      ],
+      "kind": "given"
+    },
+    {
+      "variants": [
+        "poe"
+      ],
+      "spellings": [
+        {
+          "text": "ပို",
+          "weight": 1
+        }
+      ],
+      "kind": "given"
+    },
+    {
+      "variants": [
+        "pon"
+      ],
+      "spellings": [
+        {
+          "text": "ပုန်း",
+          "weight": 1
+        }
+      ],
+      "kind": "given"
+    },
+    {
+      "variants": [
+        "pun"
+      ],
+      "spellings": [
+        {
+          "text": "ပွန်း",
+          "weight": 1
+        }
+      ],
+      "kind": "given"
+    },
+    {
+      "variants": [
+        "put"
+      ],
+      "spellings": [
+        {
+          "text": "ပုတ်",
+          "weight": 1
+        }
+      ],
+      "kind": "given"
+    },
+    {
+      "variants": [
+        "pwae"
+      ],
+      "spellings": [
+        {
+          "text": "ပွဲ",
+          "weight": 1
+        }
+      ],
+      "kind": "given"
+    },
+    {
+      "variants": [
+        "ran"
+      ],
+      "spellings": [
+        {
+          "text": "ရန်း",
+          "weight": 1
+        }
+      ],
+      "kind": "given"
+    },
+    {
+      "variants": [
+        "rar"
+      ],
+      "spellings": [
+        {
+          "text": "ရာ",
+          "weight": 1
+        }
+      ],
+      "kind": "given"
+    },
+    {
+      "variants": [
+        "rat"
+      ],
+      "spellings": [
+        {
+          "text": "ရတ်",
+          "weight": 1
+        }
+      ],
+      "kind": "given"
+    },
+    {
+      "variants": [
+        "raw"
+      ],
+      "spellings": [
+        {
+          "text": "ရော်",
+          "weight": 1
+        }
+      ],
+      "kind": "given"
+    },
+    {
+      "variants": [
+        "ray"
+      ],
+      "spellings": [
+        {
+          "text": "ရေ",
+          "weight": 1
+        }
+      ],
+      "kind": "given"
+    },
+    {
+      "variants": [
+        "rei"
+      ],
+      "spellings": [
+        {
+          "text": "ရိ",
+          "weight": 1
+        }
+      ],
+      "kind": "given"
+    },
+    {
+      "variants": [
+        "rin"
+      ],
+      "spellings": [
+        {
+          "text": "ရင်း",
+          "weight": 1
+        }
+      ],
+      "kind": "given"
+    },
+    {
+      "variants": [
+        "rit"
+      ],
+      "spellings": [
+        {
+          "text": "ရစ်",
+          "weight": 1
+        }
+      ],
+      "kind": "given"
+    },
+    {
+      "variants": [
+        "rone"
+      ],
+      "spellings": [
+        {
+          "text": "ရုန်း",
+          "weight": 1
+        }
+      ],
+      "kind": "given"
+    },
+    {
+      "variants": [
+        "say"
+      ],
+      "spellings": [
+        {
+          "text": "စေ",
+          "weight": 1
+        }
+      ],
+      "kind": "given"
+    },
+    {
+      "variants": [
+        "seik"
+      ],
+      "spellings": [
+        {
+          "text": "စိတ်",
+          "weight": 1
+        }
+      ],
+      "kind": "given"
+    },
+    {
+      "variants": [
+        "sel"
+      ],
+      "spellings": [
+        {
+          "text": "စယ်",
+          "weight": 1
+        }
+      ],
+      "kind": "given"
+    },
+    {
+      "variants": [
+        "set"
+      ],
+      "spellings": [
+        {
+          "text": "စက်",
+          "weight": 1
+        }
+      ],
+      "kind": "given"
+    },
+    {
+      "variants": [
+        "shinn"
+      ],
+      "spellings": [
+        {
+          "text": "ရှင်း",
+          "weight": 1
+        }
+      ],
+      "kind": "given"
+    },
+    {
+      "variants": [
+        "sho"
+      ],
+      "spellings": [
+        {
+          "text": "ရှို",
+          "weight": 1
+        }
+      ],
+      "kind": "given"
+    },
+    {
+      "variants": [
+        "shoon"
+      ],
+      "spellings": [
+        {
+          "text": "ရွှန်း",
+          "weight": 1
+        }
+      ],
+      "kind": "given"
+    },
+    {
+      "variants": [
+        "shun"
+      ],
+      "spellings": [
+        {
+          "text": "ရွှန်း",
+          "weight": 1
+        }
+      ],
+      "kind": "given"
+    },
+    {
+      "variants": [
+        "sit"
+      ],
+      "spellings": [
+        {
+          "text": "စစ်",
+          "weight": 1
+        }
+      ],
+      "kind": "given"
+    },
+    {
+      "variants": [
+        "son"
+      ],
+      "spellings": [
+        {
+          "text": "စုန်း",
+          "weight": 1
+        }
+      ],
+      "kind": "given"
+    },
+    {
+      "variants": [
+        "sut"
+      ],
+      "spellings": [
+        {
+          "text": "စုတ်",
+          "weight": 1
+        }
+      ],
+      "kind": "given"
+    },
+    {
+      "variants": [
+        "swan"
+      ],
+      "spellings": [
+        {
+          "text": "စွန်း",
+          "weight": 1
+        }
+      ],
+      "kind": "given"
+    },
+    {
+      "variants": [
+        "swar"
+      ],
+      "spellings": [
+        {
+          "text": "စွာ",
+          "weight": 1
+        }
+      ],
+      "kind": "given"
+    },
+    {
+      "variants": [
+        "tae"
+      ],
+      "spellings": [
+        {
+          "text": "တဲ",
+          "weight": 1
+        }
+      ],
+      "kind": "given"
+    },
+    {
+      "variants": [
+        "tah"
+      ],
+      "spellings": [
+        {
+          "text": "တား",
+          "weight": 1
+        }
+      ],
+      "kind": "given"
+    },
+    {
+      "variants": [
+        "taik"
+      ],
+      "spellings": [
+        {
+          "text": "တိုက်",
+          "weight": 1
+        }
+      ],
+      "kind": "given"
+    },
+    {
+      "variants": [
+        "tal"
+      ],
+      "spellings": [
+        {
+          "text": "တယ်",
+          "weight": 1
+        }
+      ],
+      "kind": "given"
+    },
+    {
+      "variants": [
+        "tan"
+      ],
+      "spellings": [
+        {
+          "text": "တန်း",
+          "weight": 1
+        }
+      ],
+      "kind": "given"
+    },
+    {
+      "variants": [
+        "tauk"
+      ],
+      "spellings": [
+        {
+          "text": "တောက်",
+          "weight": 1
+        }
+      ],
+      "kind": "given"
+    },
+    {
+      "variants": [
+        "taw"
+      ],
+      "spellings": [
+        {
+          "text": "တော်",
+          "weight": 1
+        }
+      ],
+      "kind": "given"
+    },
+    {
+      "variants": [
+        "tay"
+      ],
+      "spellings": [
+        {
+          "text": "တေ",
+          "weight": 1
+        }
+      ],
+      "kind": "given"
+    },
+    {
+      "variants": [
+        "tee"
+      ],
+      "spellings": [
+        {
+          "text": "တီ",
+          "weight": 1
+        }
+      ],
+      "kind": "given"
+    },
+    {
+      "variants": [
+        "teik"
+      ],
+      "spellings": [
+        {
+          "text": "တိတ်",
+          "weight": 1
+        }
+      ],
+      "kind": "given"
+    },
+    {
+      "variants": [
+        "tel"
+      ],
+      "spellings": [
+        {
+          "text": "တယ်",
+          "weight": 1
+        }
+      ],
+      "kind": "given"
+    },
+    {
+      "variants": [
+        "tet"
+      ],
+      "spellings": [
+        {
+          "text": "တက်",
+          "weight": 1
+        }
+      ],
+      "kind": "given"
+    },
+    {
+      "variants": [
+        "thar"
+      ],
+      "spellings": [
+        {
+          "text": "သာ",
+          "weight": 1
+        }
+      ],
+      "kind": "given"
+    },
+    {
+      "variants": [
+        "thone"
+      ],
+      "spellings": [
+        {
+          "text": "သုန်း",
+          "weight": 1
+        }
+      ],
+      "kind": "given"
+    },
+    {
+      "variants": [
+        "thun"
+      ],
+      "spellings": [
+        {
+          "text": "သွန်း",
+          "weight": 1
+        }
+      ],
+      "kind": "given"
+    },
+    {
+      "variants": [
+        "thway"
+      ],
+      "spellings": [
+        {
+          "text": "သွေ",
+          "weight": 1
+        }
+      ],
+      "kind": "given"
+    },
+    {
+      "variants": [
+        "thwin"
+      ],
+      "spellings": [
+        {
+          "text": "သွင်း",
+          "weight": 1
+        }
+      ],
+      "kind": "given"
+    },
+    {
+      "variants": [
+        "tike"
+      ],
+      "spellings": [
+        {
+          "text": "တိုက်",
+          "weight": 1
+        }
+      ],
+      "kind": "given"
+    },
+    {
+      "variants": [
+        "tit"
+      ],
+      "spellings": [
+        {
+          "text": "တစ်",
+          "weight": 1
+        }
+      ],
+      "kind": "given"
+    },
+    {
+      "variants": [
+        "toke"
+      ],
+      "spellings": [
+        {
+          "text": "တုတ်",
+          "weight": 1
+        }
+      ],
+      "kind": "given"
+    },
+    {
+      "variants": [
+        "ton"
+      ],
+      "spellings": [
+        {
+          "text": "တုန်း",
+          "weight": 1
+        }
+      ],
+      "kind": "given"
+    },
+    {
+      "variants": [
+        "tone"
+      ],
+      "spellings": [
+        {
+          "text": "တုန်း",
+          "weight": 1
+        }
+      ],
+      "kind": "given"
+    },
+    {
+      "variants": [
+        "tote"
+      ],
+      "spellings": [
+        {
+          "text": "တုတ်",
+          "weight": 1
+        }
+      ],
+      "kind": "given"
+    },
+    {
+      "variants": [
+        "tu"
+      ],
+      "spellings": [
+        {
+          "text": "တု",
+          "weight": 1
+        }
+      ],
+      "kind": "given"
+    },
+    {
+      "variants": [
+        "tue"
+      ],
+      "spellings": [
+        {
+          "text": "တူး",
+          "weight": 1
+        }
+      ],
+      "kind": "given"
+    },
+    {
+      "variants": [
+        "tut"
+      ],
+      "spellings": [
+        {
+          "text": "တုတ်",
+          "weight": 1
+        }
+      ],
+      "kind": "given"
+    },
+    {
+      "variants": [
+        "tway"
+      ],
+      "spellings": [
+        {
+          "text": "တွေ",
+          "weight": 1
+        }
+      ],
+      "kind": "given"
+    },
+    {
+      "variants": [
+        "vit"
+      ],
+      "spellings": [
+        {
+          "text": "ဗစ်",
+          "weight": 1
+        }
+      ],
+      "kind": "given"
+    },
+    {
+      "variants": [
+        "vo"
+      ],
+      "spellings": [
+        {
+          "text": "ဗို",
+          "weight": 1
+        }
+      ],
+      "kind": "given"
+    },
+    {
+      "variants": [
+        "von"
+      ],
+      "spellings": [
+        {
+          "text": "ဗုန်း",
+          "weight": 1
+        }
+      ],
+      "kind": "given"
+    },
+    {
+      "variants": [
+        "wal"
+      ],
+      "spellings": [
+        {
+          "text": "ဝယ်",
+          "weight": 1
+        }
+      ],
+      "kind": "given"
+    },
+    {
+      "variants": [
+        "wan"
+      ],
+      "spellings": [
+        {
+          "text": "ဝန်း",
+          "weight": 1
+        }
+      ],
+      "kind": "given"
+    },
+    {
+      "variants": [
+        "wat"
+      ],
+      "spellings": [
+        {
+          "text": "ဝတ်",
+          "weight": 1
+        }
+      ],
+      "kind": "given"
+    },
+    {
+      "variants": [
+        "wee"
+      ],
+      "spellings": [
+        {
+          "text": "ဝီ",
+          "weight": 1
+        }
+      ],
+      "kind": "given"
+    },
+    {
+      "variants": [
+        "wel"
+      ],
+      "spellings": [
+        {
+          "text": "ဝယ်",
+          "weight": 1
+        }
+      ],
+      "kind": "given"
+    },
+    {
+      "variants": [
+        "wet"
+      ],
+      "spellings": [
+        {
+          "text": "ဝက်",
+          "weight": 1
+        }
+      ],
+      "kind": "given"
+    },
+    {
+      "variants": [
+        "wit"
+      ],
+      "spellings": [
+        {
+          "text": "ဝစ်",
+          "weight": 1
+        }
+      ],
+      "kind": "given"
+    },
+    {
+      "variants": [
+        "won"
+      ],
+      "spellings": [
+        {
+          "text": "ဝုန်း",
+          "weight": 1
+        }
+      ],
+      "kind": "given"
+    },
+    {
+      "variants": [
+        "woo"
+      ],
+      "spellings": [
+        {
+          "text": "ဝူး",
+          "weight": 1
+        }
+      ],
+      "kind": "given"
+    },
+    {
+      "variants": [
+        "wun"
+      ],
+      "spellings": [
+        {
+          "text": "ဝွန်း",
+          "weight": 1
+        }
+      ],
+      "kind": "given"
+    },
+    {
+      "variants": [
+        "wut"
+      ],
+      "spellings": [
+        {
+          "text": "ဝုတ်",
+          "weight": 1
+        }
+      ],
+      "kind": "given"
+    },
+    {
+      "variants": [
+        "ya"
+      ],
+      "spellings": [
+        {
+          "text": "ယ",
+          "weight": 1
+        }
+      ],
+      "kind": "given"
+    },
+    {
+      "variants": [
+        "yae"
+      ],
+      "spellings": [
+        {
+          "text": "ယဲ",
+          "weight": 1
+        }
+      ],
+      "kind": "given"
+    },
+    {
+      "variants": [
+        "yah"
+      ],
+      "spellings": [
+        {
+          "text": "ယား",
+          "weight": 1
+        }
+      ],
+      "kind": "given"
+    },
+    {
+      "variants": [
+        "yat"
+      ],
+      "spellings": [
+        {
+          "text": "ယတ်",
+          "weight": 1
+        }
+      ],
+      "kind": "given"
+    },
+    {
+      "variants": [
+        "yaw"
+      ],
+      "spellings": [
+        {
+          "text": "ယော်",
+          "weight": 1
+        }
+      ],
+      "kind": "given"
+    },
+    {
+      "variants": [
+        "yeh"
+      ],
+      "spellings": [
+        {
+          "text": "ယယ်",
+          "weight": 1
+        }
+      ],
+      "kind": "given"
+    },
+    {
+      "variants": [
+        "yet"
+      ],
+      "spellings": [
+        {
+          "text": "ယက်",
+          "weight": 1
+        }
+      ],
+      "kind": "given"
+    },
+    {
+      "variants": [
+        "yon"
+      ],
+      "spellings": [
+        {
+          "text": "ယုန်း",
+          "weight": 1
+        }
+      ],
+      "kind": "given"
+    },
+    {
+      "variants": [
+        "yue"
+      ],
+      "spellings": [
+        {
+          "text": "ယူး",
+          "weight": 1
+        }
+      ],
+      "kind": "given"
+    },
+    {
+      "variants": [
+        "yun"
+      ],
+      "spellings": [
+        {
+          "text": "ယွန်း",
+          "weight": 1
+        }
+      ],
+      "kind": "given"
+    },
+    {
+      "variants": [
+        "yut"
+      ],
+      "spellings": [
+        {
+          "text": "ယုတ်",
+          "weight": 1
+        }
+      ],
+      "kind": "given"
+    },
+    {
+      "variants": [
+        "ywa"
+      ],
+      "spellings": [
+        {
+          "text": "ယွ",
+          "weight": 1
+        }
+      ],
+      "kind": "given"
+    },
+    {
+      "variants": [
+        "ywae"
+      ],
+      "spellings": [
+        {
+          "text": "ယွဲ",
+          "weight": 1
+        }
+      ],
+      "kind": "given"
+    },
+    {
+      "variants": [
+        "ywar"
+      ],
+      "spellings": [
+        {
+          "text": "ယွာ",
+          "weight": 1
+        }
+      ],
+      "kind": "given"
+    },
+    {
+      "variants": [
+        "ywat"
+      ],
+      "spellings": [
+        {
+          "text": "ယွတ်",
+          "weight": 1
+        }
+      ],
+      "kind": "given"
+    },
+    {
+      "variants": [
+        "ywet"
+      ],
+      "spellings": [
+        {
+          "text": "ယွက်",
+          "weight": 1
+        }
+      ],
+      "kind": "given"
+    },
+    {
+      "variants": [
+        "ze"
+      ],
+      "spellings": [
+        {
+          "text": "ဇေ",
+          "weight": 1
+        }
+      ],
+      "kind": "given"
+    },
+    {
+      "variants": [
+        "zet"
+      ],
+      "spellings": [
+        {
+          "text": "ဇက်",
+          "weight": 1
+        }
+      ],
+      "kind": "given"
+    },
+    {
+      "variants": [
+        "zit"
+      ],
+      "spellings": [
+        {
+          "text": "ဇစ်",
+          "weight": 1
+        }
+      ],
+      "kind": "given"
+    },
+    {
+      "variants": [
+        "zo"
+      ],
+      "spellings": [
+        {
+          "text": "ဇို",
+          "weight": 1
+        }
+      ],
+      "kind": "given"
+    },
+    {
+      "variants": [
+        "zon"
+      ],
+      "spellings": [
+        {
+          "text": "ဇုန်း",
+          "weight": 1
+        }
+      ],
+      "kind": "given"
+    },
+    {
+      "variants": [
+        "zone"
+      ],
+      "spellings": [
+        {
+          "text": "ဇုန်း",
+          "weight": 1
+        }
+      ],
+      "kind": "given"
+    },
+    {
+      "variants": [
+        "zoo"
+      ],
+      "spellings": [
+        {
+          "text": "ဇူး",
+          "weight": 1
+        }
+      ],
+      "kind": "given"
+    },
+    {
+      "variants": [
+        "zue"
+      ],
+      "spellings": [
+        {
+          "text": "ဇူး",
+          "weight": 1
+        }
+      ],
+      "kind": "given"
+    },
+    {
+      "variants": [
+        "zut"
+      ],
+      "spellings": [
+        {
+          "text": "ဇုတ်",
+          "weight": 1
+        }
+      ],
+      "kind": "given"
+    },
+    {
+      "variants": [
+        "zwe"
+      ],
+      "spellings": [
+        {
+          "text": "ဇွေ",
+          "weight": 1
+        }
+      ],
+      "kind": "given"
+    },
+    {
+      "variants": [
         "mg",
         "m.g.",
         "m g"
@@ -26,19 +2282,6 @@
         }
       ],
       "kind": "title"
-    },
-    {
-      "variants": [
-        "aung",
-        "oung"
-      ],
-      "spellings": [
-        {
-          "text": "အောင်",
-          "weight": 1
-        }
-      ],
-      "kind": "given"
     },
     {
       "variants": [
@@ -80,6 +2323,93 @@
     },
     {
       "variants": [
+        "ma"
+      ],
+      "spellings": [
+        {
+          "text": "မ",
+          "weight": 1
+        }
+      ],
+      "kind": "title"
+    },
+    {
+      "variants": [
+        "saw"
+      ],
+      "spellings": [
+        {
+          "text": "စော",
+          "weight": 1
+        }
+      ],
+      "kind": "title"
+    },
+    {
+      "variants": [
+        "naw"
+      ],
+      "spellings": [
+        {
+          "text": "နော်",
+          "weight": 1
+        }
+      ],
+      "kind": "title"
+    },
+    {
+      "variants": [
+        "sai"
+      ],
+      "spellings": [
+        {
+          "text": "စိုင်း",
+          "weight": 1
+        }
+      ],
+      "kind": "title"
+    },
+    {
+      "variants": [
+        "nang",
+        "nan"
+      ],
+      "spellings": [
+        {
+          "text": "နန်း",
+          "weight": 1
+        }
+      ],
+      "kind": "title"
+    },
+    {
+      "variants": [
+        "dr",
+        "dr."
+      ],
+      "spellings": [
+        {
+          "text": "ဒေါက်တာ",
+          "weight": 1
+        }
+      ],
+      "kind": "title"
+    },
+    {
+      "variants": [
+        "aung",
+        "oung"
+      ],
+      "spellings": [
+        {
+          "text": "အောင်",
+          "weight": 1
+        }
+      ],
+      "kind": "given"
+    },
+    {
+      "variants": [
         "kyaw",
         "gyaw",
         "kyaw."
@@ -94,12 +2424,17 @@
     },
     {
       "variants": [
-        "min"
+        "min",
+        "minn"
       ],
       "spellings": [
         {
           "text": "မင်း",
           "weight": 1
+        },
+        {
+          "text": "မင်",
+          "weight": 0.85
         }
       ],
       "kind": "given"
@@ -113,6 +2448,10 @@
         {
           "text": "မျိုး",
           "weight": 1
+        },
+        {
+          "text": "မြို့",
+          "weight": 0.85
         }
       ],
       "kind": "given"
@@ -132,7 +2471,7 @@
     {
       "variants": [
         "htoo",
-        "htoo."
+        "htu"
       ],
       "spellings": [
         {
@@ -157,13 +2496,16 @@
     },
     {
       "variants": [
-        "yint",
-        "yint."
+        "yint"
       ],
       "spellings": [
         {
           "text": "ရင့်",
           "weight": 1
+        },
+        {
+          "text": "ယဉ့်",
+          "weight": 0.85
         }
       ],
       "kind": "given"
@@ -174,7 +2516,7 @@
       ],
       "spellings": [
         {
-          "text": "ထန့်",
+          "text": "သန့်",
           "weight": 1
         }
       ],
@@ -182,7 +2524,8 @@
     },
     {
       "variants": [
-        "zin"
+        "zin",
+        "zinn"
       ],
       "spellings": [
         {
@@ -207,7 +2550,7 @@
     {
       "variants": [
         "phone",
-        "phong"
+        "phon"
       ],
       "spellings": [
         {
@@ -244,7 +2587,8 @@
     },
     {
       "variants": [
-        "shwe"
+        "shwe",
+        "shway"
       ],
       "spellings": [
         {
@@ -288,6 +2632,10 @@
         {
           "text": "ဝေ",
           "weight": 1
+        },
+        {
+          "text": "ဝဲ",
+          "weight": 0.85
         }
       ],
       "kind": "given"
@@ -300,6 +2648,10 @@
         {
           "text": "ယံ",
           "weight": 1
+        },
+        {
+          "text": "ရန်",
+          "weight": 0.85
         }
       ],
       "kind": "given"
@@ -325,6 +2677,10 @@
         {
           "text": "မြေ့",
           "weight": 1
+        },
+        {
+          "text": "မြဲ",
+          "weight": 0.85
         }
       ],
       "kind": "given"
@@ -368,31 +2724,6 @@
     },
     {
       "variants": [
-        "thida"
-      ],
-      "spellings": [
-        {
-          "text": "ထီတာ",
-          "weight": 1
-        }
-      ],
-      "kind": "given"
-    },
-    {
-      "variants": [
-        "sandar",
-        "sanda"
-      ],
-      "spellings": [
-        {
-          "text": "စန္ဒာ",
-          "weight": 1
-        }
-      ],
-      "kind": "given"
-    },
-    {
-      "variants": [
         "nay"
       ],
       "spellings": [
@@ -405,12 +2736,17 @@
     },
     {
       "variants": [
-        "htet"
+        "htet",
+        "htett"
       ],
       "spellings": [
         {
-          "text": "ထော်",
+          "text": "ထက်",
           "weight": 1
+        },
+        {
+          "text": "သက်",
+          "weight": 0.85
         }
       ],
       "kind": "given"
@@ -445,7 +2781,7 @@
       ],
       "spellings": [
         {
-          "text": "ဦ",
+          "text": "ဦး",
           "weight": 1
         }
       ],
@@ -457,7 +2793,7 @@
       ],
       "spellings": [
         {
-          "text": "ပျို",
+          "text": "ဖြိုး",
           "weight": 1
         }
       ],
@@ -469,7 +2805,7 @@
       ],
       "spellings": [
         {
-          "text": "ငြိမ်",
+          "text": "ငြိမ်း",
           "weight": 1
         }
       ],
@@ -484,6 +2820,10 @@
         {
           "text": "စု",
           "weight": 1
+        },
+        {
+          "text": "ဆု",
+          "weight": 0.85
         }
       ],
       "kind": "given"
@@ -506,7 +2846,7 @@
       ],
       "spellings": [
         {
-          "text": "ထူ",
+          "text": "သူ",
           "weight": 1
         }
       ],
@@ -515,12 +2855,17 @@
     {
       "variants": [
         "win",
+        "winn",
         "wyn"
       ],
       "spellings": [
         {
           "text": "ဝင်း",
           "weight": 1
+        },
+        {
+          "text": "ဝင်",
+          "weight": 0.85
         }
       ],
       "kind": "given"
@@ -552,8 +2897,7 @@
     },
     {
       "variants": [
-        "aye",
-        "ay"
+        "aye"
       ],
       "spellings": [
         {
@@ -565,8 +2909,7 @@
     },
     {
       "variants": [
-        "khaing",
-        "khaing."
+        "khaing"
       ],
       "spellings": [
         {
@@ -578,12 +2921,17 @@
     },
     {
       "variants": [
-        "thet"
+        "thet",
+        "thett"
       ],
       "spellings": [
         {
-          "text": "ထော်",
+          "text": "သက်",
           "weight": 1
+        },
+        {
+          "text": "ထက်",
+          "weight": 0.85
         }
       ],
       "kind": "given"
@@ -614,36 +2962,11 @@
     },
     {
       "variants": [
-        "yadanar",
-        "yadanar."
-      ],
-      "spellings": [
-        {
-          "text": "ရတနာ",
-          "weight": 1
-        }
-      ],
-      "kind": "given"
-    },
-    {
-      "variants": [
         "ei"
       ],
       "spellings": [
         {
           "text": "အိ",
-          "weight": 1
-        }
-      ],
-      "kind": "given"
-    },
-    {
-      "variants": [
-        "thiri"
-      ],
-      "spellings": [
-        {
-          "text": "ထီ",
           "weight": 1
         }
       ],
@@ -663,20 +2986,7 @@
     },
     {
       "variants": [
-        "nanda"
-      ],
-      "spellings": [
-        {
-          "text": "နန္ဒ",
-          "weight": 1
-        }
-      ],
-      "kind": "given"
-    },
-    {
-      "variants": [
-        "kaung",
-        "kaung."
+        "kaung"
       ],
       "spellings": [
         {
@@ -688,7 +2998,8 @@
     },
     {
       "variants": [
-        "myat"
+        "myat",
+        "myatt"
       ],
       "spellings": [
         {
@@ -717,7 +3028,7 @@
       ],
       "spellings": [
         {
-          "text": "မိံ့်",
+          "text": "မြင့်",
           "weight": 1
         }
       ],
@@ -730,7 +3041,7 @@
       ],
       "spellings": [
         {
-          "text": "ထုံ့",
+          "text": "ထွန်း",
           "weight": 1
         }
       ],
@@ -742,8 +3053,12 @@
       ],
       "spellings": [
         {
-          "text": "တုံ့",
+          "text": "ထွန်း",
           "weight": 1
+        },
+        {
+          "text": "တွန်း",
+          "weight": 0.85
         }
       ],
       "kind": "given"
@@ -754,7 +3069,7 @@
       ],
       "spellings": [
         {
-          "text": "ခံ့်",
+          "text": "ခန့်",
           "weight": 1
         }
       ],
@@ -762,60 +3077,17 @@
     },
     {
       "variants": [
-        "saw"
+        "lin",
+        "linn"
       ],
       "spellings": [
         {
-          "text": "စော့",
+          "text": "လင်း",
           "weight": 1
-        }
-      ],
-      "kind": "title"
-    },
-    {
-      "variants": [
-        "naw"
-      ],
-      "spellings": [
+        },
         {
-          "text": "နော့",
-          "weight": 1
-        }
-      ],
-      "kind": "title"
-    },
-    {
-      "variants": [
-        "sai"
-      ],
-      "spellings": [
-        {
-          "text": "စာ့",
-          "weight": 1
-        }
-      ],
-      "kind": "title"
-    },
-    {
-      "variants": [
-        "nang"
-      ],
-      "spellings": [
-        {
-          "text": "နံး",
-          "weight": 1
-        }
-      ],
-      "kind": "title"
-    },
-    {
-      "variants": [
-        "lin"
-      ],
-      "spellings": [
-        {
-          "text": "သိံ့",
-          "weight": 1
+          "text": "လင်",
+          "weight": 0.85
         }
       ],
       "kind": "given"
@@ -826,7 +3098,7 @@
       ],
       "spellings": [
         {
-          "text": "ဟံ့",
+          "text": "ဟန်",
           "weight": 1
         }
       ],
@@ -838,7 +3110,7 @@
       ],
       "spellings": [
         {
-          "text": "လျာ",
+          "text": "လှ",
           "weight": 1
         }
       ],
@@ -850,7 +3122,7 @@
       ],
       "spellings": [
         {
-          "text": "စိံ်",
+          "text": "ချစ်",
           "weight": 1
         }
       ],
@@ -862,7 +3134,7 @@
       ],
       "spellings": [
         {
-          "text": "မာ်",
+          "text": "မာ",
           "weight": 1
         }
       ],
@@ -874,7 +3146,7 @@
       ],
       "spellings": [
         {
-          "text": "သာ်",
+          "text": "လာ",
           "weight": 1
         }
       ],
@@ -886,7 +3158,7 @@
       ],
       "spellings": [
         {
-          "text": "တာ်",
+          "text": "တာ",
           "weight": 1
         }
       ],
@@ -898,7 +3170,7 @@
       ],
       "spellings": [
         {
-          "text": "ဒာ်",
+          "text": "ဒါ",
           "weight": 1
         }
       ],
@@ -910,7 +3182,7 @@
       ],
       "spellings": [
         {
-          "text": "ဇာ်",
+          "text": "ဇာ",
           "weight": 1
         }
       ],
@@ -922,7 +3194,7 @@
       ],
       "spellings": [
         {
-          "text": "ဖျု",
+          "text": "ဖြူ",
           "weight": 1
         }
       ],
@@ -934,7 +3206,7 @@
       ],
       "spellings": [
         {
-          "text": "ဗိ",
+          "text": "ဗိုလ်",
           "weight": 1
         }
       ],
@@ -946,20 +3218,12 @@
       ],
       "spellings": [
         {
-          "text": "နံး",
+          "text": "မွန်",
           "weight": 1
-        }
-      ],
-      "kind": "given"
-    },
-    {
-      "variants": [
-        "thazin"
-      ],
-      "spellings": [
+        },
         {
-          "text": "ထျိံ့",
-          "weight": 1
+          "text": "မုံ",
+          "weight": 0.85
         }
       ],
       "kind": "given"
@@ -970,7 +3234,7 @@
       ],
       "spellings": [
         {
-          "text": "ယိံ့",
+          "text": "ယဉ်",
           "weight": 1
         }
       ],
@@ -978,12 +3242,11 @@
     },
     {
       "variants": [
-        "noe",
-        "nwe"
+        "noe"
       ],
       "spellings": [
         {
-          "text": "နေ့",
+          "text": "နိုး",
           "weight": 1
         }
       ],
@@ -995,7 +3258,7 @@
       ],
       "spellings": [
         {
-          "text": "ထော့",
+          "text": "ထေး",
           "weight": 1
         }
       ],
@@ -1007,32 +3270,7 @@
       ],
       "spellings": [
         {
-          "text": "ထာ်",
-          "weight": 1
-        }
-      ],
-      "kind": "given"
-    },
-    {
-      "variants": [
-        "thiha"
-      ],
-      "spellings": [
-        {
-          "text": "ထိဟာ",
-          "weight": 1
-        }
-      ],
-      "kind": "given"
-    },
-    {
-      "variants": [
-        "thura",
-        "thura."
-      ],
-      "spellings": [
-        {
-          "text": "ထုလာ",
+          "text": "ထား",
           "weight": 1
         }
       ],
@@ -1044,7 +3282,7 @@
       ],
       "spellings": [
         {
-          "text": "ခာ",
+          "text": "ခ",
           "weight": 1
         }
       ],
@@ -1056,7 +3294,7 @@
       ],
       "spellings": [
         {
-          "text": "စြာ",
+          "text": "စွာ",
           "weight": 1
         }
       ],
@@ -1068,7 +3306,7 @@
       ],
       "spellings": [
         {
-          "text": "ဂျိ",
+          "text": "ကြီး",
           "weight": 1
         }
       ],
@@ -1080,7 +3318,7 @@
       ],
       "spellings": [
         {
-          "text": "ထြေ",
+          "text": "ထွေး",
           "weight": 1
         }
       ],
@@ -1092,7 +3330,7 @@
       ],
       "spellings": [
         {
-          "text": "ျု",
+          "text": "ဇူ",
           "weight": 1
         }
       ],
@@ -1100,24 +3338,16 @@
     },
     {
       "variants": [
-        "sun"
+        "san"
       ],
       "spellings": [
         {
-          "text": "စုံ့",
+          "text": "ဆန်း",
           "weight": 1
-        }
-      ],
-      "kind": "given"
-    },
-    {
-      "variants": [
-        "wel"
-      ],
-      "spellings": [
+        },
         {
-          "text": "ဝသ်",
-          "weight": 1
+          "text": "စန်း",
+          "weight": 0.85
         }
       ],
       "kind": "given"
@@ -1140,7 +3370,7 @@
       ],
       "spellings": [
         {
-          "text": "ထိ",
+          "text": "သီ",
           "weight": 1
         }
       ],
@@ -1152,7 +3382,7 @@
       ],
       "spellings": [
         {
-          "text": "ဟာ",
+          "text": "ဟ",
           "weight": 1
         }
       ],
@@ -1160,460 +3390,111 @@
     },
     {
       "variants": [
-        "dr",
-        "dr."
+        "rein"
       ],
       "spellings": [
         {
-          "text": "ဒော့ကတျာ်",
+          "text": "ရိန်",
           "weight": 1
         }
       ],
-      "kind": "title"
+      "kind": "given"
     },
     {
       "variants": [
-        "ba"
+        "kyi"
       ],
       "spellings": [
         {
-          "text": "ဗာ",
+          "text": "ကြည်",
           "weight": 1
         }
       ],
-      "kind": "syllable"
+      "kind": "given"
     },
     {
       "variants": [
-        "be"
+        "nyi"
       ],
       "spellings": [
         {
-          "text": "ဗေ",
+          "text": "ညီ",
           "weight": 1
         }
       ],
-      "kind": "syllable"
+      "kind": "given"
     },
     {
       "variants": [
-        "bi"
+        "nyunt"
       ],
       "spellings": [
         {
-          "text": "ဗိ",
+          "text": "ညွန့်",
           "weight": 1
         }
       ],
-      "kind": "syllable"
+      "kind": "given"
     },
     {
       "variants": [
-        "bu"
+        "khine"
       ],
       "spellings": [
         {
-          "text": "ဗု",
+          "text": "ခိုင်",
           "weight": 1
         }
       ],
-      "kind": "syllable"
+      "kind": "given"
     },
     {
       "variants": [
-        "pa"
+        "thein"
       ],
       "spellings": [
         {
-          "text": "ပာ",
+          "text": "သိန်း",
           "weight": 1
         }
       ],
-      "kind": "syllable"
+      "kind": "given"
     },
     {
       "variants": [
-        "pe"
+        "than"
       ],
       "spellings": [
         {
-          "text": "ပေ",
+          "text": "သန်း",
           "weight": 1
         }
       ],
-      "kind": "syllable"
+      "kind": "given"
     },
     {
       "variants": [
-        "pi"
+        "maw"
       ],
       "spellings": [
         {
-          "text": "ပိ",
+          "text": "မော်",
           "weight": 1
         }
       ],
-      "kind": "syllable"
+      "kind": "given"
     },
     {
       "variants": [
-        "pu"
+        "lay"
       ],
       "spellings": [
         {
-          "text": "ပု",
+          "text": "လေး",
           "weight": 1
         }
       ],
-      "kind": "syllable"
-    },
-    {
-      "variants": [
-        "da"
-      ],
-      "spellings": [
-        {
-          "text": "ဒာ",
-          "weight": 1
-        }
-      ],
-      "kind": "syllable"
-    },
-    {
-      "variants": [
-        "de"
-      ],
-      "spellings": [
-        {
-          "text": "ဒေ",
-          "weight": 1
-        }
-      ],
-      "kind": "syllable"
-    },
-    {
-      "variants": [
-        "di"
-      ],
-      "spellings": [
-        {
-          "text": "ဒိ",
-          "weight": 1
-        }
-      ],
-      "kind": "syllable"
-    },
-    {
-      "variants": [
-        "du"
-      ],
-      "spellings": [
-        {
-          "text": "ဒု",
-          "weight": 1
-        }
-      ],
-      "kind": "syllable"
-    },
-    {
-      "variants": [
-        "ta"
-      ],
-      "spellings": [
-        {
-          "text": "တာ",
-          "weight": 1
-        }
-      ],
-      "kind": "syllable"
-    },
-    {
-      "variants": [
-        "te"
-      ],
-      "spellings": [
-        {
-          "text": "တေ",
-          "weight": 1
-        }
-      ],
-      "kind": "syllable"
-    },
-    {
-      "variants": [
-        "ti"
-      ],
-      "spellings": [
-        {
-          "text": "တိ",
-          "weight": 1
-        }
-      ],
-      "kind": "syllable"
-    },
-    {
-      "variants": [
-        "tu"
-      ],
-      "spellings": [
-        {
-          "text": "တု",
-          "weight": 1
-        }
-      ],
-      "kind": "syllable"
-    },
-    {
-      "variants": [
-        "ga"
-      ],
-      "spellings": [
-        {
-          "text": "ဂာ",
-          "weight": 1
-        }
-      ],
-      "kind": "syllable"
-    },
-    {
-      "variants": [
-        "ge"
-      ],
-      "spellings": [
-        {
-          "text": "ဂေ",
-          "weight": 1
-        }
-      ],
-      "kind": "syllable"
-    },
-    {
-      "variants": [
-        "gi"
-      ],
-      "spellings": [
-        {
-          "text": "ဂိ",
-          "weight": 1
-        }
-      ],
-      "kind": "syllable"
-    },
-    {
-      "variants": [
-        "gu"
-      ],
-      "spellings": [
-        {
-          "text": "ဂု",
-          "weight": 1
-        }
-      ],
-      "kind": "syllable"
-    },
-    {
-      "variants": [
-        "ka"
-      ],
-      "spellings": [
-        {
-          "text": "ကာ",
-          "weight": 1
-        }
-      ],
-      "kind": "syllable"
-    },
-    {
-      "variants": [
-        "ke"
-      ],
-      "spellings": [
-        {
-          "text": "ကေ",
-          "weight": 1
-        }
-      ],
-      "kind": "syllable"
-    },
-    {
-      "variants": [
-        "ki"
-      ],
-      "spellings": [
-        {
-          "text": "ကိ",
-          "weight": 1
-        }
-      ],
-      "kind": "syllable"
-    },
-    {
-      "variants": [
-        "ku"
-      ],
-      "spellings": [
-        {
-          "text": "ကု",
-          "weight": 1
-        }
-      ],
-      "kind": "syllable"
-    },
-    {
-      "variants": [
-        "ja"
-      ],
-      "spellings": [
-        {
-          "text": "ဇာ",
-          "weight": 1
-        }
-      ],
-      "kind": "syllable"
-    },
-    {
-      "variants": [
-        "je"
-      ],
-      "spellings": [
-        {
-          "text": "ဇေ",
-          "weight": 1
-        }
-      ],
-      "kind": "syllable"
-    },
-    {
-      "variants": [
-        "ji"
-      ],
-      "spellings": [
-        {
-          "text": "ဇိ",
-          "weight": 1
-        }
-      ],
-      "kind": "syllable"
-    },
-    {
-      "variants": [
-        "ju"
-      ],
-      "spellings": [
-        {
-          "text": "ဇု",
-          "weight": 1
-        }
-      ],
-      "kind": "syllable"
-    },
-    {
-      "variants": [
-        "cha"
-      ],
-      "spellings": [
-        {
-          "text": "စာ",
-          "weight": 1
-        }
-      ],
-      "kind": "syllable"
-    },
-    {
-      "variants": [
-        "che"
-      ],
-      "spellings": [
-        {
-          "text": "စေ",
-          "weight": 1
-        }
-      ],
-      "kind": "syllable"
-    },
-    {
-      "variants": [
-        "chi"
-      ],
-      "spellings": [
-        {
-          "text": "စိ",
-          "weight": 1
-        }
-      ],
-      "kind": "syllable"
-    },
-    {
-      "variants": [
-        "chu"
-      ],
-      "spellings": [
-        {
-          "text": "စု",
-          "weight": 1
-        }
-      ],
-      "kind": "syllable"
-    },
-    {
-      "variants": [
-        "sa"
-      ],
-      "spellings": [
-        {
-          "text": "စာ",
-          "weight": 1
-        }
-      ],
-      "kind": "syllable"
-    },
-    {
-      "variants": [
-        "se"
-      ],
-      "spellings": [
-        {
-          "text": "စေ",
-          "weight": 1
-        }
-      ],
-      "kind": "syllable"
-    },
-    {
-      "variants": [
-        "si"
-      ],
-      "spellings": [
-        {
-          "text": "စိ",
-          "weight": 1
-        }
-      ],
-      "kind": "syllable"
-    },
-    {
-      "variants": [
-        "na"
-      ],
-      "spellings": [
-        {
-          "text": "နာ",
-          "weight": 1
-        }
-      ],
-      "kind": "syllable"
-    },
-    {
-      "variants": [
-        "ne"
-      ],
-      "spellings": [
-        {
-          "text": "နေ",
-          "weight": 1
-        }
-      ],
-      "kind": "syllable"
+      "kind": "given"
     },
     {
       "variants": [
@@ -1621,11 +3502,107 @@
       ],
       "spellings": [
         {
-          "text": "နိ",
+          "text": "နီ",
           "weight": 1
         }
       ],
-      "kind": "syllable"
+      "kind": "given"
+    },
+    {
+      "variants": [
+        "pyone"
+      ],
+      "spellings": [
+        {
+          "text": "ပြုံး",
+          "weight": 1
+        }
+      ],
+      "kind": "given"
+    },
+    {
+      "variants": [
+        "tint"
+      ],
+      "spellings": [
+        {
+          "text": "တင့်",
+          "weight": 1
+        }
+      ],
+      "kind": "given"
+    },
+    {
+      "variants": [
+        "toe"
+      ],
+      "spellings": [
+        {
+          "text": "တိုး",
+          "weight": 1
+        }
+      ],
+      "kind": "given"
+    },
+    {
+      "variants": [
+        "kyal"
+      ],
+      "spellings": [
+        {
+          "text": "ကြယ်",
+          "weight": 1
+        }
+      ],
+      "kind": "given"
+    },
+    {
+      "variants": [
+        "cho"
+      ],
+      "spellings": [
+        {
+          "text": "ချို",
+          "weight": 1
+        }
+      ],
+      "kind": "given"
+    },
+    {
+      "variants": [
+        "sein"
+      ],
+      "spellings": [
+        {
+          "text": "စိန်",
+          "weight": 1
+        }
+      ],
+      "kind": "given"
+    },
+    {
+      "variants": [
+        "nwe"
+      ],
+      "spellings": [
+        {
+          "text": "နွယ်",
+          "weight": 1
+        }
+      ],
+      "kind": "given"
+    },
+    {
+      "variants": [
+        "ohn"
+      ],
+      "spellings": [
+        {
+          "text": "အုန်း",
+          "weight": 1
+        }
+      ],
+      "kind": "given"
     },
     {
       "variants": [
@@ -1637,7 +3614,104 @@
           "weight": 1
         }
       ],
-      "kind": "syllable"
+      "kind": "given"
+    },
+    {
+      "variants": [
+        "thin",
+        "thinn"
+      ],
+      "spellings": [
+        {
+          "text": "သင်း",
+          "weight": 1
+        }
+      ],
+      "kind": "given"
+    },
+    {
+      "variants": [
+        "thaw"
+      ],
+      "spellings": [
+        {
+          "text": "သော်",
+          "weight": 1
+        }
+      ],
+      "kind": "given"
+    },
+    {
+      "variants": [
+        "zun"
+      ],
+      "spellings": [
+        {
+          "text": "ဇွန်",
+          "weight": 1
+        }
+      ],
+      "kind": "given"
+    },
+    {
+      "variants": [
+        "nway"
+      ],
+      "spellings": [
+        {
+          "text": "နွေး",
+          "weight": 1
+        }
+      ],
+      "kind": "given"
+    },
+    {
+      "variants": [
+        "myaing"
+      ],
+      "spellings": [
+        {
+          "text": "မြိုင်",
+          "weight": 1
+        }
+      ],
+      "kind": "given"
+    },
+    {
+      "variants": [
+        "pwint"
+      ],
+      "spellings": [
+        {
+          "text": "ပွင့်",
+          "weight": 1
+        }
+      ],
+      "kind": "given"
+    },
+    {
+      "variants": [
+        "war"
+      ],
+      "spellings": [
+        {
+          "text": "ဝါ",
+          "weight": 1
+        }
+      ],
+      "kind": "given"
+    },
+    {
+      "variants": [
+        "latt"
+      ],
+      "spellings": [
+        {
+          "text": "လတ်",
+          "weight": 1
+        }
+      ],
+      "kind": "given"
     },
     {
       "variants": [
@@ -1645,35 +3719,72 @@
       ],
       "spellings": [
         {
-          "text": "သာ",
+          "text": "လ",
           "weight": 1
         }
       ],
-      "kind": "syllable"
+      "kind": "given"
     },
     {
       "variants": [
-        "le"
+        "nge"
       ],
       "spellings": [
         {
-          "text": "သေ",
+          "text": "ငယ်",
           "weight": 1
         }
       ],
-      "kind": "syllable"
+      "kind": "given"
     },
     {
       "variants": [
-        "li"
+        "hsu",
+        "hsuu"
       ],
       "spellings": [
         {
-          "text": "သိ",
+          "text": "ဆု",
           "weight": 1
         }
       ],
-      "kind": "syllable"
+      "kind": "given"
+    },
+    {
+      "variants": [
+        "htike"
+      ],
+      "spellings": [
+        {
+          "text": "ထိုက်",
+          "weight": 1
+        }
+      ],
+      "kind": "given"
+    },
+    {
+      "variants": [
+        "naung"
+      ],
+      "spellings": [
+        {
+          "text": "နောင်",
+          "weight": 1
+        }
+      ],
+      "kind": "given"
+    },
+    {
+      "variants": [
+        "hmue"
+      ],
+      "spellings": [
+        {
+          "text": "မှူး",
+          "weight": 1
+        }
+      ],
+      "kind": "given"
     },
     {
       "variants": [
@@ -1681,215 +3792,35 @@
       ],
       "spellings": [
         {
-          "text": "သု",
+          "text": "လူ",
           "weight": 1
         }
       ],
-      "kind": "syllable"
+      "kind": "given"
     },
     {
       "variants": [
-        "ra"
+        "thit"
       ],
       "spellings": [
         {
-          "text": "လာ",
+          "text": "သစ်",
           "weight": 1
         }
       ],
-      "kind": "syllable"
+      "kind": "given"
     },
     {
       "variants": [
-        "re"
+        "ein"
       ],
       "spellings": [
         {
-          "text": "လေ",
+          "text": "အိမ်",
           "weight": 1
         }
       ],
-      "kind": "syllable"
-    },
-    {
-      "variants": [
-        "ri"
-      ],
-      "spellings": [
-        {
-          "text": "လိ",
-          "weight": 1
-        }
-      ],
-      "kind": "syllable"
-    },
-    {
-      "variants": [
-        "ru"
-      ],
-      "spellings": [
-        {
-          "text": "လု",
-          "weight": 1
-        }
-      ],
-      "kind": "syllable"
-    },
-    {
-      "variants": [
-        "wa"
-      ],
-      "spellings": [
-        {
-          "text": "ဝာ",
-          "weight": 1
-        }
-      ],
-      "kind": "syllable"
-    },
-    {
-      "variants": [
-        "we"
-      ],
-      "spellings": [
-        {
-          "text": "ဝေ",
-          "weight": 1
-        }
-      ],
-      "kind": "syllable"
-    },
-    {
-      "variants": [
-        "wi"
-      ],
-      "spellings": [
-        {
-          "text": "ဝိ",
-          "weight": 1
-        }
-      ],
-      "kind": "syllable"
-    },
-    {
-      "variants": [
-        "wu"
-      ],
-      "spellings": [
-        {
-          "text": "ဝု",
-          "weight": 1
-        }
-      ],
-      "kind": "syllable"
-    },
-    {
-      "variants": [
-        "ya"
-      ],
-      "spellings": [
-        {
-          "text": "ယာ",
-          "weight": 1
-        }
-      ],
-      "kind": "syllable"
-    },
-    {
-      "variants": [
-        "yo"
-      ],
-      "spellings": [
-        {
-          "text": "ယေု",
-          "weight": 1
-        }
-      ],
-      "kind": "syllable"
-    },
-    {
-      "variants": [
-        "za"
-      ],
-      "spellings": [
-        {
-          "text": "ျာ",
-          "weight": 1
-        }
-      ],
-      "kind": "syllable"
-    },
-    {
-      "variants": [
-        "ze"
-      ],
-      "spellings": [
-        {
-          "text": "ျေ",
-          "weight": 1
-        }
-      ],
-      "kind": "syllable"
-    },
-    {
-      "variants": [
-        "zi"
-      ],
-      "spellings": [
-        {
-          "text": "ျိ",
-          "weight": 1
-        }
-      ],
-      "kind": "syllable"
-    },
-    {
-      "variants": [
-        "zuu"
-      ],
-      "spellings": [
-        {
-          "text": "ျူ",
-          "weight": 1
-        }
-      ],
-      "kind": "syllable"
-    },
-    {
-      "variants": [
-        "hta"
-      ],
-      "spellings": [
-        {
-          "text": "ထာ",
-          "weight": 1
-        }
-      ],
-      "kind": "syllable"
-    },
-    {
-      "variants": [
-        "hte"
-      ],
-      "spellings": [
-        {
-          "text": "ထေ",
-          "weight": 1
-        }
-      ],
-      "kind": "syllable"
-    },
-    {
-      "variants": [
-        "hti"
-      ],
-      "spellings": [
-        {
-          "text": "ထိ",
-          "weight": 1
-        }
-      ],
-      "kind": "syllable"
+      "kind": "given"
     },
     {
       "variants": [
@@ -1897,263 +3828,107 @@
       ],
       "spellings": [
         {
-          "text": "ထာ",
+          "text": "သာ",
           "weight": 1
         }
       ],
-      "kind": "syllable"
+      "kind": "given"
     },
     {
       "variants": [
-        "the"
+        "myit"
       ],
       "spellings": [
         {
-          "text": "ထေ",
+          "text": "မြစ်",
           "weight": 1
         }
       ],
-      "kind": "syllable"
+      "kind": "given"
     },
     {
       "variants": [
-        "sha"
+        "kay"
       ],
       "spellings": [
         {
-          "text": "ပြာ",
+          "text": "ကေ",
           "weight": 1
         }
       ],
-      "kind": "syllable"
+      "kind": "given"
     },
     {
       "variants": [
-        "she"
+        "mi"
       ],
       "spellings": [
         {
-          "text": "ပြေ",
+          "text": "မိ",
           "weight": 1
         }
       ],
-      "kind": "syllable"
+      "kind": "given"
     },
     {
       "variants": [
-        "shi"
+        "wa"
       ],
       "spellings": [
         {
-          "text": "ပြိ",
+          "text": "ဝ",
           "weight": 1
         }
       ],
-      "kind": "syllable"
+      "kind": "given"
     },
     {
       "variants": [
-        "shu"
+        "nyo"
       ],
       "spellings": [
         {
-          "text": "ပြု",
+          "text": "ညို",
           "weight": 1
         }
       ],
-      "kind": "syllable"
+      "kind": "given"
     },
     {
       "variants": [
-        "kya"
+        "shein"
       ],
       "spellings": [
         {
-          "text": "ပျာ",
+          "text": "ရှိန်",
           "weight": 1
         }
       ],
-      "kind": "syllable"
+      "kind": "given"
     },
     {
       "variants": [
-        "kye"
+        "wutt"
       ],
       "spellings": [
         {
-          "text": "ပျေ",
+          "text": "ဝတ်",
           "weight": 1
         }
       ],
-      "kind": "syllable"
+      "kind": "given"
     },
     {
       "variants": [
-        "kyi"
+        "pann"
       ],
       "spellings": [
         {
-          "text": "ပျိ",
+          "text": "ပန်း",
           "weight": 1
         }
       ],
-      "kind": "syllable"
-    },
-    {
-      "variants": [
-        "kyu"
-      ],
-      "spellings": [
-        {
-          "text": "ပျု",
-          "weight": 1
-        }
-      ],
-      "kind": "syllable"
-    },
-    {
-      "variants": [
-        "gya"
-      ],
-      "spellings": [
-        {
-          "text": "ဂျာ",
-          "weight": 1
-        }
-      ],
-      "kind": "syllable"
-    },
-    {
-      "variants": [
-        "gye"
-      ],
-      "spellings": [
-        {
-          "text": "ဂျေ",
-          "weight": 1
-        }
-      ],
-      "kind": "syllable"
-    },
-    {
-      "variants": [
-        "gyu"
-      ],
-      "spellings": [
-        {
-          "text": "ဂျု",
-          "weight": 1
-        }
-      ],
-      "kind": "syllable"
-    },
-    {
-      "variants": [
-        "nya"
-      ],
-      "spellings": [
-        {
-          "text": "နျာ",
-          "weight": 1
-        }
-      ],
-      "kind": "syllable"
-    },
-    {
-      "variants": [
-        "nye"
-      ],
-      "spellings": [
-        {
-          "text": "နျေ",
-          "weight": 1
-        }
-      ],
-      "kind": "syllable"
-    },
-    {
-      "variants": [
-        "nyi"
-      ],
-      "spellings": [
-        {
-          "text": "နျိ",
-          "weight": 1
-        }
-      ],
-      "kind": "syllable"
-    },
-    {
-      "variants": [
-        "nyu"
-      ],
-      "spellings": [
-        {
-          "text": "နျု",
-          "weight": 1
-        }
-      ],
-      "kind": "syllable"
-    },
-    {
-      "variants": [
-        "myi"
-      ],
-      "spellings": [
-        {
-          "text": "မျိ",
-          "weight": 1
-        }
-      ],
-      "kind": "syllable"
-    },
-    {
-      "variants": [
-        "myu"
-      ],
-      "spellings": [
-        {
-          "text": "မျု",
-          "weight": 1
-        }
-      ],
-      "kind": "syllable"
-    },
-    {
-      "variants": [
-        "pya"
-      ],
-      "spellings": [
-        {
-          "text": "ဖျာ",
-          "weight": 1
-        }
-      ],
-      "kind": "syllable"
-    },
-    {
-      "variants": [
-        "pyi"
-      ],
-      "spellings": [
-        {
-          "text": "ဖျိ",
-          "weight": 1
-        }
-      ],
-      "kind": "syllable"
-    },
-    {
-      "variants": [
-        "pyu"
-      ],
-      "spellings": [
-        {
-          "text": "ဖျု",
-          "weight": 1
-        }
-      ],
-      "kind": "syllable"
+      "kind": "given"
     },
     {
       "variants": [
@@ -2161,614 +3936,47 @@
       ],
       "spellings": [
         {
-          "text": "စြေ",
+          "text": "ဆွေ",
           "weight": 1
         }
       ],
-      "kind": "syllable"
+      "kind": "given"
     },
     {
       "variants": [
-        "swi"
+        "sin"
       ],
       "spellings": [
         {
-          "text": "စြိ",
+          "text": "စင်",
           "weight": 1
+        },
+        {
+          "text": "ဆင်",
+          "weight": 0.85
         }
       ],
-      "kind": "syllable"
+      "kind": "given"
     },
     {
       "variants": [
-        "swu"
+        "si"
       ],
       "spellings": [
         {
-          "text": "စြု",
+          "text": "ဆီ",
           "weight": 1
-        }
-      ],
-      "kind": "syllable"
-    },
-    {
-      "variants": [
-        "twa"
-      ],
-      "spellings": [
+        },
         {
-          "text": "တွာ",
-          "weight": 1
+          "text": "စီ",
+          "weight": 0.85
         }
       ],
-      "kind": "syllable"
+      "kind": "given"
     },
     {
       "variants": [
-        "twi"
-      ],
-      "spellings": [
-        {
-          "text": "တွိ",
-          "weight": 1
-        }
-      ],
-      "kind": "syllable"
-    },
-    {
-      "variants": [
-        "twu"
-      ],
-      "spellings": [
-        {
-          "text": "တွု",
-          "weight": 1
-        }
-      ],
-      "kind": "syllable"
-    },
-    {
-      "variants": [
-        "hna"
-      ],
-      "spellings": [
-        {
-          "text": "ဟနာ",
-          "weight": 1
-        }
-      ],
-      "kind": "syllable"
-    },
-    {
-      "variants": [
-        "hni"
-      ],
-      "spellings": [
-        {
-          "text": "ဟနိ",
-          "weight": 1
-        }
-      ],
-      "kind": "syllable"
-    },
-    {
-      "variants": [
-        "hnu"
-      ],
-      "spellings": [
-        {
-          "text": "ဟနု",
-          "weight": 1
-        }
-      ],
-      "kind": "syllable"
-    },
-    {
-      "variants": [
-        "hle"
-      ],
-      "spellings": [
-        {
-          "text": "ဟသေ",
-          "weight": 1
-        }
-      ],
-      "kind": "syllable"
-    },
-    {
-      "variants": [
-        "hli"
-      ],
-      "spellings": [
-        {
-          "text": "ဟသိ",
-          "weight": 1
-        }
-      ],
-      "kind": "syllable"
-    },
-    {
-      "variants": [
-        "hlu"
-      ],
-      "spellings": [
-        {
-          "text": "ဟသု",
-          "weight": 1
-        }
-      ],
-      "kind": "syllable"
-    },
-    {
-      "variants": [
-        "ble"
-      ],
-      "spellings": [
-        {
-          "text": "ဗျေ",
-          "weight": 1
-        }
-      ],
-      "kind": "syllable"
-    },
-    {
-      "variants": [
-        "bla"
-      ],
-      "spellings": [
-        {
-          "text": "ဗျာ",
-          "weight": 1
-        }
-      ],
-      "kind": "syllable"
-    },
-    {
-      "variants": [
-        "bwe"
-      ],
-      "spellings": [
-        {
-          "text": "ဗွေ",
-          "weight": 1
-        }
-      ],
-      "kind": "syllable"
-    },
-    {
-      "variants": [
-        "kwe"
-      ],
-      "spellings": [
-        {
-          "text": "ကွေ",
-          "weight": 1
-        }
-      ],
-      "kind": "syllable"
-    },
-    {
-      "variants": [
-        "mwe"
-      ],
-      "spellings": [
-        {
-          "text": "မွေ",
-          "weight": 1
-        }
-      ],
-      "kind": "syllable"
-    },
-    {
-      "variants": [
-        "pwe"
-      ],
-      "spellings": [
-        {
-          "text": "ပွေ",
-          "weight": 1
-        }
-      ],
-      "kind": "syllable"
-    },
-    {
-      "variants": [
-        "ywe"
-      ],
-      "spellings": [
-        {
-          "text": "ယွေ",
-          "weight": 1
-        }
-      ],
-      "kind": "syllable"
-    },
-    {
-      "variants": [
-        "swel"
-      ],
-      "spellings": [
-        {
-          "text": "စြသ်",
-          "weight": 1
-        }
-      ],
-      "kind": "syllable"
-    },
-    {
-      "variants": [
-        "ngwet"
-      ],
-      "spellings": [
-        {
-          "text": "နွေတ်",
-          "weight": 1
-        }
-      ],
-      "kind": "syllable"
-    },
-    {
-      "variants": [
-        "aungpyaesone"
-      ],
-      "spellings": [
-        {
-          "text": "အောင်ပြည့်စုံ",
-          "weight": 1
-        }
-      ],
-      "kind": "syllable"
-    },
-    {
-      "variants": [
-        "pyaesone"
-      ],
-      "spellings": [
-        {
-          "text": "ပြည့်စုံ",
-          "weight": 1
-        }
-      ],
-      "kind": "syllable"
-    },
-    {
-      "variants": [
-        "kyawmin"
-      ],
-      "spellings": [
-        {
-          "text": "ကျော်မင်း",
-          "weight": 1
-        }
-      ],
-      "kind": "syllable"
-    },
-    {
-      "variants": [
-        "kyawswa"
-      ],
-      "spellings": [
-        {
-          "text": "ကျော်စြာ",
-          "weight": 1
-        }
-      ],
-      "kind": "syllable"
-    },
-    {
-      "variants": [
-        "kyawthu"
-      ],
-      "spellings": [
-        {
-          "text": "ကျော်ထူ",
-          "weight": 1
-        }
-      ],
-      "kind": "syllable"
-    },
-    {
-      "variants": [
-        "kyawzin"
-      ],
-      "spellings": [
-        {
-          "text": "ကျော်ဇင်",
-          "weight": 1
-        }
-      ],
-      "kind": "syllable"
-    },
-    {
-      "variants": [
-        "minthu"
-      ],
-      "spellings": [
-        {
-          "text": "မင်းထူ",
-          "weight": 1
-        }
-      ],
-      "kind": "syllable"
-    },
-    {
-      "variants": [
-        "minzaw"
-      ],
-      "spellings": [
-        {
-          "text": "မင်းဇော်",
-          "weight": 1
-        }
-      ],
-      "kind": "syllable"
-    },
-    {
-      "variants": [
-        "zawmin"
-      ],
-      "spellings": [
-        {
-          "text": "ဇော်မင်း",
-          "weight": 1
-        }
-      ],
-      "kind": "syllable"
-    },
-    {
-      "variants": [
-        "htooaung"
-      ],
-      "spellings": [
-        {
-          "text": "ထူးအောင်",
-          "weight": 1
-        }
-      ],
-      "kind": "syllable"
-    },
-    {
-      "variants": [
-        "waiyan"
-      ],
-      "spellings": [
-        {
-          "text": "ဝေယံ",
-          "weight": 1
-        }
-      ],
-      "kind": "syllable"
-    },
-    {
-      "variants": [
-        "waiwai"
-      ],
-      "spellings": [
-        {
-          "text": "ဝေဝေ",
-          "weight": 1
-        }
-      ],
-      "kind": "syllable"
-    },
-    {
-      "variants": [
-        "nyeinchan"
-      ],
-      "spellings": [
-        {
-          "text": "ငြိမ်ချမ်း",
-          "weight": 1
-        }
-      ],
-      "kind": "syllable"
-    },
-    {
-      "variants": [
-        "chanmyae"
-      ],
-      "spellings": [
-        {
-          "text": "ချမ်းမြေ့",
-          "weight": 1
-        }
-      ],
-      "kind": "syllable"
-    },
-    {
-      "variants": [
-        "myintmyat"
-      ],
-      "spellings": [
-        {
-          "text": "မိံ့်မြတ်",
-          "weight": 1
-        }
-      ],
-      "kind": "syllable"
-    },
-    {
-      "variants": [
-        "myintzu"
-      ],
-      "spellings": [
-        {
-          "text": "မိံ့်ျု",
-          "weight": 1
-        }
-      ],
-      "kind": "syllable"
-    },
-    {
-      "variants": [
-        "khinmarlar"
-      ],
-      "spellings": [
-        {
-          "text": "ခင်မာ်သာ်",
-          "weight": 1
-        }
-      ],
-      "kind": "syllable"
-    },
-    {
-      "variants": [
-        "khinmar"
-      ],
-      "spellings": [
-        {
-          "text": "ခင်မာ်",
-          "weight": 1
-        }
-      ],
-      "kind": "syllable"
-    },
-    {
-      "variants": [
-        "khinmoe"
-      ],
-      "spellings": [
-        {
-          "text": "ခင်မိုး",
-          "weight": 1
-        }
-      ],
-      "kind": "syllable"
-    },
-    {
-      "variants": [
-        "thandar"
-      ],
-      "spellings": [
-        {
-          "text": "ထံ့ဒာ်",
-          "weight": 1
-        }
-      ],
-      "kind": "syllable"
-    },
-    {
-      "variants": [
-        "thantzin"
-      ],
-      "spellings": [
-        {
-          "text": "ထန့်ဇင်",
-          "weight": 1
-        }
-      ],
-      "kind": "syllable"
-    },
-    {
-      "variants": [
-        "hninwai"
-      ],
-      "spellings": [
-        {
-          "text": "နှင်းဝေ",
-          "weight": 1
-        }
-      ],
-      "kind": "syllable"
-    },
-    {
-      "variants": [
-        "hninwaiyan"
-      ],
-      "spellings": [
-        {
-          "text": "နှင်းဝေယံ",
-          "weight": 1
-        }
-      ],
-      "kind": "syllable"
-    },
-    {
-      "variants": [
-        "aungmoe"
-      ],
-      "spellings": [
-        {
-          "text": "အောင်မိုး",
-          "weight": 1
-        }
-      ],
-      "kind": "syllable"
-    },
-    {
-      "variants": [
-        "aungpyae"
-      ],
-      "spellings": [
-        {
-          "text": "အောင်ပြည့်",
-          "weight": 1
-        }
-      ],
-      "kind": "syllable"
-    },
-    {
-      "variants": [
-        "aungphyo"
-      ],
-      "spellings": [
-        {
-          "text": "အောင်ပျို",
-          "weight": 1
-        }
-      ],
-      "kind": "syllable"
-    },
-    {
-      "variants": [
-        "aungzaw"
-      ],
-      "spellings": [
-        {
-          "text": "အောင်ဇော်",
-          "weight": 1
-        }
-      ],
-      "kind": "syllable"
-    },
-    {
-      "variants": [
-        "aungmyint"
-      ],
-      "spellings": [
-        {
-          "text": "အောင်မိံ့်",
-          "weight": 1
-        }
-      ],
-      "kind": "syllable"
-    },
-    {
-      "variants": [
-        "yemyint"
-      ],
-      "spellings": [
-        {
-          "text": "လေမိံ့်",
-          "weight": 1
-        }
-      ],
-      "kind": "syllable"
-    },
-    {
-      "variants": [
-        "yemyat"
-      ],
-      "spellings": [
-        {
-          "text": "လေမြတ်",
-          "weight": 1
-        }
-      ],
-      "kind": "syllable"
-    },
-    {
-      "variants": [
+        "yadanar",
         "yadana"
       ],
       "spellings": [
@@ -2777,1135 +3985,284 @@
           "weight": 1
         }
       ],
-      "kind": "syllable"
+      "kind": "given"
     },
     {
       "variants": [
-        "myatnoe"
+        "sandar",
+        "sanda"
       ],
       "spellings": [
         {
-          "text": "မြတ်နေ့",
+          "text": "စန္ဒာ",
           "weight": 1
         }
       ],
-      "kind": "syllable"
+      "kind": "given"
     },
     {
       "variants": [
-        "myatthu"
+        "thidar",
+        "thida"
       ],
       "spellings": [
         {
-          "text": "မြတ်ထူ",
+          "text": "သီတာ",
           "weight": 1
         }
       ],
-      "kind": "syllable"
+      "kind": "given"
     },
     {
       "variants": [
-        "eaindra"
+        "nilar",
+        "nila"
       ],
       "spellings": [
         {
-          "text": "အိနဒာ",
+          "text": "နီလာ",
           "weight": 1
         }
       ],
-      "kind": "syllable"
+      "kind": "given"
     },
     {
       "variants": [
-        "moemoe"
+        "thiri"
       ],
       "spellings": [
         {
-          "text": "မိုးမိုး",
+          "text": "သီရိ",
           "weight": 1
         }
       ],
-      "kind": "syllable"
+      "kind": "given"
     },
     {
       "variants": [
-        "kyawkyaw"
+        "thiha"
       ],
       "spellings": [
         {
-          "text": "ကျော်ကျော်",
+          "text": "သီဟ",
           "weight": 1
         }
       ],
-      "kind": "syllable"
+      "kind": "given"
     },
     {
       "variants": [
-        "htoohtoo"
+        "thura"
       ],
       "spellings": [
         {
-          "text": "ထူးထူး",
+          "text": "သူရ",
           "weight": 1
         }
       ],
-      "kind": "syllable"
+      "kind": "given"
     },
     {
       "variants": [
-        "marlar"
+        "thazin"
       ],
       "spellings": [
         {
-          "text": "မာ်သာ်",
+          "text": "သဇင်",
           "weight": 1
         }
       ],
-      "kind": "syllable"
+      "kind": "given"
     },
     {
       "variants": [
-        "tayzar"
+        "zayar",
+        "zeyar",
+        "zeya"
       ],
       "spellings": [
         {
-          "text": "တျာ်",
+          "text": "ဇေယျာ",
           "weight": 1
         }
       ],
-      "kind": "syllable"
+      "kind": "given"
     },
     {
       "variants": [
-        "myolwin"
+        "zarni"
       ],
       "spellings": [
         {
-          "text": "မျိုးလွင်",
+          "text": "ဇာနည်",
           "weight": 1
         }
       ],
-      "kind": "syllable"
+      "kind": "given"
     },
     {
       "variants": [
-        "hsumon"
+        "eaindra",
+        "eindra"
       ],
       "spellings": [
         {
-          "text": "ဟစုနံး",
+          "text": "အိန္ဒြာ",
           "weight": 1
         }
       ],
-      "kind": "syllable"
+      "kind": "given"
     },
     {
       "variants": [
-        "yimon"
+        "thuzar"
       ],
       "spellings": [
         {
-          "text": "ယိနံး",
+          "text": "သူဇာ",
           "weight": 1
         }
       ],
-      "kind": "syllable"
+      "kind": "given"
     },
     {
       "variants": [
-        "yinmar"
+        "nanda",
+        "nandar"
       ],
       "spellings": [
         {
-          "text": "ယိံ့မာ်",
+          "text": "နန္ဒာ",
           "weight": 1
-        }
-      ],
-      "kind": "syllable"
-    },
-    {
-      "variants": [
-        "zuzar"
-      ],
-      "spellings": [
-        {
-          "text": "ျုဇာ်",
-          "weight": 1
-        }
-      ],
-      "kind": "syllable"
-    },
-    {
-      "variants": [
-        "ngwetin"
-      ],
-      "spellings": [
-        {
-          "text": "နွေတင်",
-          "weight": 1
-        }
-      ],
-      "kind": "syllable"
-    },
-    {
-      "variants": [
-        "shwin"
-      ],
-      "spellings": [
-        {
-          "text": "ပြိံ့",
-          "weight": 1
-        }
-      ],
-      "kind": "syllable"
-    },
-    {
-      "variants": [
-        "pwel"
-      ],
-      "spellings": [
-        {
-          "text": "ပွသ်",
-          "weight": 1
-        }
-      ],
-      "kind": "syllable"
-    },
-    {
-      "variants": [
-        "bwel"
-      ],
-      "spellings": [
-        {
-          "text": "ဗွသ်",
-          "weight": 1
-        }
-      ],
-      "kind": "syllable"
-    },
-    {
-      "variants": [
-        "kwel"
-      ],
-      "spellings": [
-        {
-          "text": "ကွသ်",
-          "weight": 1
-        }
-      ],
-      "kind": "syllable"
-    },
-    {
-      "variants": [
-        "mwel"
-      ],
-      "spellings": [
-        {
-          "text": "မွသ်",
-          "weight": 1
-        }
-      ],
-      "kind": "syllable"
-    },
-    {
-      "variants": [
-        "twel"
-      ],
-      "spellings": [
-        {
-          "text": "တွသ်",
-          "weight": 1
-        }
-      ],
-      "kind": "syllable"
-    },
-    {
-      "variants": [
-        "yemyatthuza"
-      ],
-      "spellings": [
-        {
-          "text": "လေမြတ်ထူျာ",
-          "weight": 1
-        }
-      ],
-      "kind": "syllable"
-    },
-    {
-      "variants": [
-        "yemyatthuzar"
-      ],
-      "spellings": [
-        {
-          "text": "လေမြတ်ထူျာ်",
-          "weight": 1
-        }
-      ],
-      "kind": "syllable"
-    },
-    {
-      "variants": [
-        "minhtet"
-      ],
-      "spellings": [
-        {
-          "text": "မင်းထော်",
-          "weight": 1
-        }
-      ],
-      "kind": "syllable"
-    },
-    {
-      "variants": [
-        "minwai"
-      ],
-      "spellings": [
-        {
-          "text": "မင်းဝေ",
-          "weight": 1
-        }
-      ],
-      "kind": "syllable"
-    },
-    {
-      "variants": [
-        "waiyanntun"
-      ],
-      "spellings": [
-        {
-          "text": "ဝေယံတုံ့",
-          "weight": 1
-        }
-      ],
-      "kind": "syllable"
-    },
-    {
-      "variants": [
-        "myinttun"
-      ],
-      "spellings": [
-        {
-          "text": "မိံ့်တုံ့",
-          "weight": 1
-        }
-      ],
-      "kind": "syllable"
-    },
-    {
-      "variants": [
-        "myintsoe"
-      ],
-      "spellings": [
-        {
-          "text": "မိံ့်စိုး",
-          "weight": 1
-        }
-      ],
-      "kind": "syllable"
-    },
-    {
-      "variants": [
-        "myintthu"
-      ],
-      "spellings": [
-        {
-          "text": "မိံ့်ထူ",
-          "weight": 1
-        }
-      ],
-      "kind": "syllable"
-    },
-    {
-      "variants": [
-        "khinthandar"
-      ],
-      "spellings": [
-        {
-          "text": "ခင်ထံ့ဒာ်",
-          "weight": 1
-        }
-      ],
-      "kind": "syllable"
-    },
-    {
-      "variants": [
-        "thandarswe"
-      ],
-      "spellings": [
-        {
-          "text": "ထံ့ဒာ်ရွှေ",
-          "weight": 1
-        }
-      ],
-      "kind": "syllable"
-    },
-    {
-      "variants": [
-        "khinmay"
-      ],
-      "spellings": [
-        {
-          "text": "ခင်မြေ",
-          "weight": 1
-        }
-      ],
-      "kind": "syllable"
-    },
-    {
-      "variants": [
-        "aungko"
-      ],
-      "spellings": [
-        {
-          "text": "အောင်ကို",
-          "weight": 1
-        }
-      ],
-      "kind": "syllable"
-    },
-    {
-      "variants": [
-        "kyawtun"
-      ],
-      "spellings": [
-        {
-          "text": "ကျော်တုံ့",
-          "weight": 1
-        }
-      ],
-      "kind": "syllable"
-    },
-    {
-      "variants": [
-        "kyawlin"
-      ],
-      "spellings": [
-        {
-          "text": "ကျော်သိံ့",
-          "weight": 1
-        }
-      ],
-      "kind": "syllable"
-    },
-    {
-      "variants": [
-        "zawhtoo"
-      ],
-      "spellings": [
-        {
-          "text": "ဇော်ထူး",
-          "weight": 1
-        }
-      ],
-      "kind": "syllable"
-    },
-    {
-      "variants": [
-        "zawgyi"
-      ],
-      "spellings": [
-        {
-          "text": "ဇော်ဂျိ",
-          "weight": 1
-        }
-      ],
-      "kind": "syllable"
-    },
-    {
-      "variants": [
-        "htooaungyeyint"
-      ],
-      "spellings": [
-        {
-          "text": "ထူးအောင်ရဲရင့်",
-          "weight": 1
-        }
-      ],
-      "kind": "syllable"
-    },
-    {
-      "variants": [
-        "yemint"
-      ],
-      "spellings": [
-        {
-          "text": "လေမင်း",
-          "weight": 1
-        }
-      ],
-      "kind": "syllable"
-    },
-    {
-      "variants": [
-        "yemyatnoe"
-      ],
-      "spellings": [
-        {
-          "text": "လေမြတ်နေ့",
-          "weight": 1
-        }
-      ],
-      "kind": "syllable"
-    },
-    {
-      "variants": [
-        "yemyatthu"
-      ],
-      "spellings": [
-        {
-          "text": "လေမြတ်ထူ",
-          "weight": 1
-        }
-      ],
-      "kind": "syllable"
-    },
-    {
-      "variants": [
-        "yemyatthuzaw"
-      ],
-      "spellings": [
-        {
-          "text": "လေမြတ်ထူဇော်",
-          "weight": 1
-        }
-      ],
-      "kind": "syllable"
-    },
-    {
-      "variants": [
-        "yemyatthuzawmin"
-      ],
-      "spellings": [
-        {
-          "text": "လေမြတ်ထူဇော်မင်း",
-          "weight": 1
-        }
-      ],
-      "kind": "syllable"
-    },
-    {
-      "variants": [
-        "yemyatthuzawminhtet"
-      ],
-      "spellings": [
-        {
-          "text": "လေမြတ်ထူဇော်မင်းထော်",
-          "weight": 1
-        }
-      ],
-      "kind": "syllable"
-    },
-    {
-      "variants": [
-        "moeaung"
-      ],
-      "spellings": [
-        {
-          "text": "မိုးအောင်",
-          "weight": 1
-        }
-      ],
-      "kind": "syllable"
-    },
-    {
-      "variants": [
-        "phyiphyu"
-      ],
-      "spellings": [
-        {
-          "text": "ပျိုဖျု",
-          "weight": 1
-        }
-      ],
-      "kind": "syllable"
-    },
-    {
-      "variants": [
-        "phyiphyo"
-      ],
-      "spellings": [
-        {
-          "text": "ပျိုပျို",
-          "weight": 1
-        }
-      ],
-      "kind": "syllable"
-    },
-    {
-      "variants": [
-        "nyinyein"
-      ],
-      "spellings": [
-        {
-          "text": "နျိမ်ငြိမ်",
-          "weight": 1
-        }
-      ],
-      "kind": "syllable"
-    },
-    {
-      "variants": [
-        "sususan"
-      ],
-      "spellings": [
-        {
-          "text": "စုစုနံး",
-          "weight": 1
-        }
-      ],
-      "kind": "syllable"
-    },
-    {
-      "variants": [
-        "lwinlwin"
-      ],
-      "spellings": [
-        {
-          "text": "လွင်လွင်",
-          "weight": 1
-        }
-      ],
-      "kind": "syllable"
-    },
-    {
-      "variants": [
-        "thirihtet"
-      ],
-      "spellings": [
-        {
-          "text": "ထီထော်",
-          "weight": 1
-        }
-      ],
-      "kind": "syllable"
-    },
-    {
-      "variants": [
-        "thirihtay"
-      ],
-      "spellings": [
-        {
-          "text": "ထီထော့",
-          "weight": 1
-        }
-      ],
-      "kind": "syllable"
-    },
-    {
-      "variants": [
-        "maymay"
-      ],
-      "spellings": [
-        {
-          "text": "မေမေ",
-          "weight": 1
-        }
-      ],
-      "kind": "syllable"
-    },
-    {
-      "variants": [
-        "eiei"
-      ],
-      "spellings": [
-        {
-          "text": "အိအိ",
-          "weight": 1
-        }
-      ],
-      "kind": "syllable"
-    },
-    {
-      "variants": [
-        "heinhein"
-      ],
-      "spellings": [
-        {
-          "text": "ဟိန်းဟိန်း",
-          "weight": 1
-        }
-      ],
-      "kind": "syllable"
-    },
-    {
-      "variants": [
-        "myatmyat"
-      ],
-      "spellings": [
-        {
-          "text": "မြတ်မြတ်",
-          "weight": 1
-        }
-      ],
-      "kind": "syllable"
-    },
-    {
-      "variants": [
-        "kaungkaung"
-      ],
-      "spellings": [
-        {
-          "text": "ကောင်းကောင်း",
-          "weight": 1
-        }
-      ],
-      "kind": "syllable"
-    },
-    {
-      "variants": [
-        "khaingkhaing"
-      ],
-      "spellings": [
-        {
-          "text": "ခိုင်ခိုင်",
-          "weight": 1
-        }
-      ],
-      "kind": "syllable"
-    },
-    {
-      "variants": [
-        "thetthet"
-      ],
-      "spellings": [
-        {
-          "text": "ထော်ထော်",
-          "weight": 1
-        }
-      ],
-      "kind": "syllable"
-    },
-    {
-      "variants": [
-        "paingpaing"
-      ],
-      "spellings": [
-        {
-          "text": "ပိုင်ပိုင်",
-          "weight": 1
-        }
-      ],
-      "kind": "syllable"
-    },
-    {
-      "variants": [
-        "wintwint"
-      ],
-      "spellings": [
-        {
-          "text": "ဝင့်ဝင့်",
-          "weight": 1
-        }
-      ],
-      "kind": "syllable"
-    },
-    {
-      "variants": [
-        "yadanarzaw"
-      ],
-      "spellings": [
-        {
-          "text": "ရတနာဇော်",
-          "weight": 1
-        }
-      ],
-      "kind": "syllable"
-    },
-    {
-      "variants": [
-        "nandamin"
-      ],
-      "spellings": [
-        {
-          "text": "နန္ဒမင်း",
-          "weight": 1
-        }
-      ],
-      "kind": "syllable"
-    },
-    {
-      "variants": [
-        "sandarkhin"
-      ],
-      "spellings": [
-        {
-          "text": "စန္ဒာခင်",
-          "weight": 1
-        }
-      ],
-      "kind": "syllable"
-    },
-    {
-      "variants": [
-        "thidaphyo"
-      ],
-      "spellings": [
-        {
-          "text": "ထီတာပျို",
-          "weight": 1
-        }
-      ],
-      "kind": "syllable"
-    },
-    {
-      "variants": [
-        "thidamoe"
-      ],
-      "spellings": [
-        {
-          "text": "ထီတာမိုး",
-          "weight": 1
-        }
-      ],
-      "kind": "syllable"
-    },
-    {
-      "variants": [
-        "thidamin"
-      ],
-      "spellings": [
-        {
-          "text": "ထီတာမင်း",
-          "weight": 1
-        }
-      ],
-      "kind": "syllable"
-    },
-    {
-      "variants": [
-        "thidazaw"
-      ],
-      "spellings": [
-        {
-          "text": "ထီတာဇော်",
-          "weight": 1
-        }
-      ],
-      "kind": "syllable"
-    },
-    {
-      "variants": [
-        "thidathant"
-      ],
-      "spellings": [
-        {
-          "text": "ထီတာထန့်",
-          "weight": 1
-        }
-      ],
-      "kind": "syllable"
-    },
-    {
-      "variants": [
-        "thidakhin"
-      ],
-      "spellings": [
-        {
-          "text": "ထီတာခင်",
-          "weight": 1
-        }
-      ],
-      "kind": "syllable"
-    },
-    {
-      "variants": [
-        "thidachan"
-      ],
-      "spellings": [
-        {
-          "text": "ထီတာချမ်း",
-          "weight": 1
-        }
-      ],
-      "kind": "syllable"
-    },
-    {
-      "variants": [
-        "thidatin"
-      ],
-      "spellings": [
-        {
-          "text": "ထီတာတင်",
-          "weight": 1
-        }
-      ],
-      "kind": "syllable"
-    },
-    {
-      "variants": [
-        "thidangwe"
-      ],
-      "spellings": [
-        {
-          "text": "ထီတာငွေ",
-          "weight": 1
-        }
-      ],
-      "kind": "syllable"
-    },
-    {
-      "variants": [
-        "thidahla"
-      ],
-      "spellings": [
-        {
-          "text": "ထီတာလျာ",
-          "weight": 1
-        }
-      ],
-      "kind": "syllable"
-    },
-    {
-      "variants": [
-        "thidakhaing"
-      ],
-      "spellings": [
-        {
-          "text": "ထီတာခိုင်",
-          "weight": 1
-        }
-      ],
-      "kind": "syllable"
-    },
-    {
-      "variants": [
-        "thidathein"
-      ],
-      "spellings": [
-        {
-          "text": "ထီတာနိုင်",
-          "weight": 1
-        }
-      ],
-      "kind": "syllable"
-    },
-    {
-      "variants": [
-        "thidanaing"
-      ],
-      "spellings": [
-        {
-          "text": "ထီတာနိုင်",
-          "weight": 1
-        }
-      ],
-      "kind": "syllable"
-    },
-    {
-      "variants": [
-        "thidapaing"
-      ],
-      "spellings": [
-        {
-          "text": "ထီတာပိုင်",
-          "weight": 1
-        }
-      ],
-      "kind": "syllable"
-    },
-    {
-      "variants": [
-        "thidawint"
-      ],
-      "spellings": [
-        {
-          "text": "ထီတာဝင့်",
-          "weight": 1
-        }
-      ],
-      "kind": "syllable"
-    },
-    {
-      "variants": [
-        "thidaye"
-      ],
-      "spellings": [
-        {
-          "text": "ထီတာရဲ",
-          "weight": 1
-        }
-      ],
-      "kind": "syllable"
-    },
-    {
-      "variants": [
-        "thidayint"
-      ],
-      "spellings": [
-        {
-          "text": "ထီတာရင့်",
-          "weight": 1
-        }
-      ],
-      "kind": "syllable"
-    },
-    {
-      "variants": [
-        "thidaoo"
-      ],
-      "spellings": [
-        {
-          "text": "ထီတာဦ",
-          "weight": 1
-        }
-      ],
-      "kind": "syllable"
-    },
-    {
-      "variants": [
-        "thidaaye"
-      ],
-      "spellings": [
-        {
-          "text": "ထီတာအေး",
-          "weight": 1
-        }
-      ],
-      "kind": "syllable"
-    },
-    {
-      "variants": [
-        "thidaei"
-      ],
-      "spellings": [
-        {
-          "text": "ထီတာအိ",
-          "weight": 1
-        }
-      ],
-      "kind": "syllable"
-    },
-    {
-      "variants": [
-        "thidamyo"
-      ],
-      "spellings": [
+        },
         {
-          "text": "ထီတာမျိုး",
-          "weight": 1
+          "text": "နန္ဒ",
+          "weight": 0.85
         }
       ],
-      "kind": "syllable"
+      "kind": "given"
     },
     {
       "variants": [
-        "thidaphone"
+        "sithu"
       ],
       "spellings": [
         {
-          "text": "ထီတာဖုန်း",
+          "text": "စည်သူ",
           "weight": 1
         }
       ],
-      "kind": "syllable"
+      "kind": "given"
     },
     {
       "variants": [
-        "thidapyae"
+        "thandar",
+        "thanda"
       ],
       "spellings": [
         {
-          "text": "ထီတာပြည့်",
+          "text": "သန္တာ",
           "weight": 1
         }
       ],
-      "kind": "syllable"
+      "kind": "given"
     },
     {
       "variants": [
-        "thidashwe"
+        "zinmar"
       ],
       "spellings": [
         {
-          "text": "ထီတာရွှေ",
+          "text": "ဇင်မာ",
           "weight": 1
         }
       ],
-      "kind": "syllable"
+      "kind": "given"
     },
     {
       "variants": [
-        "thidayee"
+        "marlar",
+        "marla"
       ],
       "spellings": [
         {
-          "text": "ထီတာရည်",
+          "text": "မာလာ",
           "weight": 1
         }
       ],
-      "kind": "syllable"
+      "kind": "given"
     },
     {
       "variants": [
-        "thidahnin"
+        "thinzar"
       ],
       "spellings": [
         {
-          "text": "ထီတာနှင်း",
+          "text": "သင်ဇာ",
           "weight": 1
         }
       ],
-      "kind": "syllable"
+      "kind": "given"
     },
     {
       "variants": [
-        "thidawai"
+        "sabai"
       ],
       "spellings": [
         {
-          "text": "ထီတာဝေ",
+          "text": "စံပယ်",
           "weight": 1
         }
       ],
-      "kind": "syllable"
+      "kind": "given"
     },
     {
       "variants": [
-        "thidayan"
+        "padonmar"
       ],
       "spellings": [
         {
-          "text": "ထီတာယံ",
+          "text": "ပဒုမ္မာ",
           "weight": 1
         }
       ],
-      "kind": "syllable"
+      "kind": "given"
     },
     {
       "variants": [
-        "thidachanmyae"
+        "mingalar"
       ],
       "spellings": [
         {
-          "text": "ထီတာချမ်းမြေ့",
+          "text": "မင်္ဂလာ",
           "weight": 1
         }
       ],
-      "kind": "syllable"
+      "kind": "given"
     },
     {
       "variants": [
-        "thidangwetin"
+        "kalyar"
       ],
       "spellings": [
         {
-          "text": "ထီတာငွေတင်",
+          "text": "ကလျာ",
           "weight": 1
         }
       ],
-      "kind": "syllable"
+      "kind": "given"
     },
     {
       "variants": [
-        "thidamoemoe"
+        "thitsar"
       ],
       "spellings": [
         {
-          "text": "ထီတာမိုးမိုး",
+          "text": "သစ္စာ",
           "weight": 1
         }
       ],
-      "kind": "syllable"
+      "kind": "given"
     }
   ]
 }

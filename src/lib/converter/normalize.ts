@@ -3,7 +3,6 @@
 const ROMAN_REPLACEMENTS: Array<[RegExp, string]> = [
   [/\./g, ""],
   [/’|'/g, ""],
-  [/aw(?![a-z])/g, "o"],
 ];
 
 export function normalizeRomanToken(raw: string): string {
