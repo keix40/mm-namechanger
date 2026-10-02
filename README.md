@@ -2,7 +2,7 @@
 
 Convert English-romanized Myanmar (Burmese) **personal names** into Myanmar script (Unicode). Includes a responsive web UI and a JSON API. No AI — dictionary + syllable rules only.
 
-**Live site (placeholder):** https://mm-namechanger.vercel.app
+**Live site:** [mm-namechanger.vercel.app](https://mm-namechanger.vercel.app)
 
 <!-- Screenshots: add after deploy -->
 
