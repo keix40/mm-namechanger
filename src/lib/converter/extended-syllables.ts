@@ -1,4 +1,10 @@
-/** Auto-validated extended name syllables (rules + orthography check). */
+/**
+ * Auto-validated extended name syllables (rules + orthography check). These are
+ * orthographically valid rule output, not curated names: only the keys in
+ * VERIFIED_EXTENDED_SYLLABLES are dictionary hits at full confidence. Every other
+ * extended key is demoted to a low-confidence "syllable" entry by
+ * scripts/generate-dictionary.ts.
+ */
 export const EXTENDED_GOLDEN_SYLLABLES: Record<string, string> = {
   Ban: "\u1017\u1014\u103a\u1038",
   Bay: "\u1017\u1031",
@@ -169,3 +175,27 @@ export const EXTENDED_GOLDEN_SYLLABLES: Record<string, string> = {
   Zut: "\u1007\u102f\u1010\u103a",
   Zwe: "\u1007\u103d\u1032",
 };
+
+/**
+ * Extended keys reviewed as real, correctly spelled Burmese name syllables
+ * (e.g. Swan စွမ်း as in Swan Htet, Zwe ဇွဲ, Yae ရဲ, Poe ပိုး, Po ဖိုး).
+ */
+export const VERIFIED_EXTENDED_SYLLABLES: ReadonlySet<string> = new Set([
+  "Gon",
+  "Hline",
+  "Hman",
+  "Hsan",
+  "Kan",
+  "Ne",
+  "Po",
+  "Poe",
+  "Shoon",
+  "Shun",
+  "Swan",
+  "Wat",
+  "Yae",
+  "Zwe",
+]);
+
+/** Weight for unverified extended syllables: never a high-confidence top result. */
+export const UNVERIFIED_EXTENDED_WEIGHT = 0.5;

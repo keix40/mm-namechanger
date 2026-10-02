@@ -388,6 +388,11 @@ export const GOLDEN_SYLLABLES: Record<string, string> = {
   ),
 };
 
+/** Extended keys that made it into GOLDEN_SYLLABLES (not shadowed by a core key). */
+export const EXTENDED_ONLY_KEYS: ReadonlySet<string> = new Set(
+  Object.keys(EXTENDED_GOLDEN_SYLLABLES).filter((key) => !CORE_ROMAN.has(key.toLowerCase())),
+);
+
 export const TITLE_KEYS = new Set(["Mg", "Maung", "U", "Daw", "Ko", "Ma", "Saw", "Naw", "Sai", "Nang", "Dr"]);
 
 export const RESERVED_ROMAN = new Set(

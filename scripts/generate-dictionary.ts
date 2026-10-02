@@ -9,7 +9,12 @@ import path from "node:path";
 import type { DictionaryEntry, DictionaryFile } from "../src/lib/converter/types";
 import { assertUnicodeMyanmar } from "../src/lib/converter/unicode";
 import {
+  UNVERIFIED_EXTENDED_WEIGHT,
+  VERIFIED_EXTENDED_SYLLABLES,
+} from "../src/lib/converter/extended-syllables";
+import {
   ALTERNATE_SPELLINGS,
+  EXTENDED_ONLY_KEYS,
   GOLDEN_SYLLABLES,
   ROMAN_VARIANTS,
   TITLE_KEYS,
@@ -30,10 +35,13 @@ for (const [canonical, myanmar] of Object.entries(GOLDEN_SYLLABLES)) {
     variants.push(v);
   }
   if (!variants.length) continue;
-  const spellings = [{ text: myanmar, weight: 1 }];
+  // Unverified extended syllables stay in the dictionary for segmentation but are
+  // demoted so they can never be a 1.00-confidence top result.
+  const unverified = EXTENDED_ONLY_KEYS.has(canonical) && !VERIFIED_EXTENDED_SYLLABLES.has(canonical);
+  const spellings = [{ text: myanmar, weight: unverified ? UNVERIFIED_EXTENDED_WEIGHT : 1 }];
   const alt = ALTERNATE_SPELLINGS[canonical];
   if (alt && alt !== myanmar) spellings.push({ text: alt, weight: ALT_WEIGHT });
-  entries.push({ variants, spellings, kind: TITLE_KEYS.has(canonical) ? "title" : "given" });
+  entries.push({ variants, spellings, kind: TITLE_KEYS.has(canonical) ? "title" : unverified ? "syllable" : "given" });
 }
 
 for (const key of Object.keys(ALTERNATE_SPELLINGS)) {
