@@ -10,10 +10,9 @@ describe("rule engine", () => {
     assertUnicodeMyanmar(out[0]!.text, "test");
   });
 
-  it("returns low-confidence fallback for gibberish", () => {
+  it("returns empty for gibberish (no malformed fallback)", () => {
     const out = convertTokenByRules("qqqzzz");
-    expect(out.length).toBeGreaterThan(0);
-    expect(out[0]!.weight).toBeLessThan(0.5);
+    expect(out.length).toBe(0);
   });
 
   it("handles medial stack ky onset via rules when not in dictionary", () => {

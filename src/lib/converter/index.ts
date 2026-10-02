@@ -94,7 +94,7 @@ export function convertName(input: string, options?: { maxAlternatives?: number 
     if (dict) {
       perTokenOptions.push(toTokenConversion(token, dict, "dictionary"));
     } else {
-      const ruled = convertTokenByRules(token);
+      const ruled = convertTokenByRules(token).filter((c) => c.weight >= 0.35);
       if (ruled.length === 0) {
         perTokenOptions.push({
           roman: token,

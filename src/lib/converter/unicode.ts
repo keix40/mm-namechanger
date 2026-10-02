@@ -61,6 +61,26 @@ export function assertUnicodeMyanmar(text: string, context: string): void {
   }
 }
 
+/** Reject rule-engine outputs with common malformed modifier stacks. */
+export function isPlausibleNameSyllable(text: string): boolean {
+  if (!containsMyanmar(text)) return false;
+  if (isLikelyZawgyi(text)) return false;
+  // Dot-below should not immediately follow a bare vowel sign without consonant context.
+  if (/[\u102d\u102e\u102f\u1030\u1031\u1032][\u1037]/.test(text)) return false;
+  // Asat should not follow vowel signs directly.
+  if (/[\u102d\u102e\u102f\u1030\u1031\u1032][\u103a]/.test(text)) return false;
+  const clusters = splitMyanmarClusters(text);
+  for (const c of clusters) {
+    if (!hasValidMedialOrder(c)) return false;
+    const hasConsonant = [...c].some((ch) => {
+      const cp = ch.codePointAt(0)!;
+      return cp >= 0x1000 && cp <= 0x102a;
+    });
+    if (!hasConsonant) return false;
+  }
+  return true;
+}
+
 /** Split into rough orthographic syllable clusters for validation. */
 export function splitMyanmarClusters(text: string): string[] {
   const clusters: string[] = [];

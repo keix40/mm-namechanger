@@ -1,7 +1,9 @@
 import { normalizeRomanToken } from "../normalize";
 import { SpellingCandidate } from "../types";
-import { assertUnicodeMyanmar } from "../unicode";
+import { assertUnicodeMyanmar, isPlausibleNameSyllable } from "../unicode";
 import { composeSyllable, ONSETS, RHYMES } from "./compose";
+
+const MIN_RULE_WEIGHT = 0.4;
 
 const VOWEL_INITIAL: Record<string, string> = {
   a: "\u1021\u102c",
@@ -14,12 +16,21 @@ const VOWEL_INITIAL: Record<string, string> = {
 /** Standalone syllable overrides for common name fragments. */
 const WHOLE_SYLLABLE: Record<string, SpellingCandidate[]> = {
   aung: [{ text: "\u1021\u1031\u102c\u1004\u103a", weight: 1 }],
-  o: [{ text: "\u1029", weight: 0.7 }],
-  u: [{ text: "\u1025", weight: 0.85 }],
 };
 
 function score(weight: number, coverage: number): number {
   return Math.min(1, weight * coverage);
+}
+
+function acceptCandidate(text: string, weight: number): SpellingCandidate | null {
+  if (weight < MIN_RULE_WEIGHT) return null;
+  try {
+    assertUnicodeMyanmar(text, "rules");
+    if (!isPlausibleNameSyllable(text)) return null;
+    return { text, weight };
+  } catch {
+    return null;
+  }
 }
 
 function parseWithRules(normalized: string): SpellingCandidate[] {
@@ -28,7 +39,8 @@ function parseWithRules(normalized: string): SpellingCandidate[] {
   }
 
   if (VOWEL_INITIAL[normalized]) {
-    return [{ text: VOWEL_INITIAL[normalized]!, weight: 0.75 }];
+    const c = acceptCandidate(VOWEL_INITIAL[normalized]!, 0.75);
+    return c ? [c] : [];
   }
 
   const results: SpellingCandidate[] = [];
@@ -48,30 +60,11 @@ function parseWithRules(normalized: string): SpellingCandidate[] {
 
     for (const rhyme of rhymeCandidates.length ? rhymeCandidates : RHYMES.filter((r) => r.roman === "")) {
       const text = composeSyllable(onset, medialStr, rhyme);
-      const coverage = normalized.length / Math.max(normalized.length, onset.roman.length + medialStr.length + rhyme.roman.length);
+      const coverage =
+        normalized.length / Math.max(normalized.length, onset.roman.length + medialStr.length + rhyme.roman.length);
       const weight = (rhyme.weight ?? 0.5) * (onset.roman.length >= 2 ? 1 : 0.92);
-      try {
-        assertUnicodeMyanmar(text, "rules");
-      } catch {
-        continue;
-      }
-      results.push({ text, weight: score(weight, coverage) });
-    }
-  }
-
-  if (results.length === 0) {
-    // Last resort: spell letter-by-letter (very low confidence)
-    const letters = normalized.split("").filter((c) => /[a-z]/.test(c));
-    if (letters.length) {
-      const mapped = letters
-        .map((l) => ONSETS.find((o) => o.roman === l)?.consonant ?? "\u1021\u102c")
-        .join("");
-      try {
-        assertUnicodeMyanmar(mapped, "rules-fallback");
-        results.push({ text: mapped, weight: 0.15 });
-      } catch {
-        /* ignore */
-      }
+      const cand = acceptCandidate(text, score(weight, coverage));
+      if (cand) results.push(cand);
     }
   }
 
@@ -82,7 +75,7 @@ function parseWithRules(normalized: string): SpellingCandidate[] {
       dedup.set(r.text, r);
     }
   }
-  return [...dedup.values()].slice(0, 6);
+  return [...dedup.values()].slice(0, 4);
 }
 
 export function convertTokenByRules(rawToken: string): SpellingCandidate[] {
