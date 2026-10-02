@@ -105,6 +105,15 @@ export const GOLDEN: Record<string, string> = {
   "Mya Thu": "မြသူ",
   "Thu Ya": "သူရ",
   "Thuya": "သူရ",
+  "Zwe Htet": "ဇွဲထက်",
+  "Swan Htet": "စွမ်းထက်",
+  "Yae Lin": "ရဲလင်း",
+  "Poe Ei": "ပိုးအိ",
+  "Kan Nyunt": "ကံညွန့်",
+  "Po Kyaw": "ဖိုးကျော်",
+  "Kyee Kyee": "ကြည်ကြည်",
+  "Wut Yee": "ဝတ်ရည်",
+  "Ay Ay": "အေးအေး",
   "Ni Ni": "နီနီ",
   "Sein Shwe": "စိန်ရွှေ",
   "Tint Tint": "တင့်တင့်",
@@ -281,12 +290,6 @@ const CORE_GOLDEN_SYLLABLES: Record<string, string> = {
   Thitsar: "သစ္စာ",
 };
 
-/** Core curated entries win over extended rule-generated syllables on key collision. */
-export const GOLDEN_SYLLABLES: Record<string, string> = {
-  ...EXTENDED_GOLDEN_SYLLABLES,
-  ...CORE_GOLDEN_SYLLABLES,
-};
-
 /** Secondary spellings offered as alternatives (weight 0.85). */
 export const ALTERNATE_SPELLINGS: Record<string, string> = {
   Min: "မင်",
@@ -335,6 +338,7 @@ export const ROMAN_VARIANTS: Record<string, string[]> = {
   yee: ["yee", "yi"],
   wai: ["wai", "way"],
   moe: ["moe", "mo"],
+  mon: ["mon", "mun"],
   soe: ["soe", "so"],
   sandar: ["sandar", "sanda"],
   thidar: ["thidar", "thida"],
@@ -361,6 +365,27 @@ export const ROMAN_VARIANTS: Record<string, string[]> = {
   khine: ["khine"],
   nway: ["nway"],
   shwe: ["shwe", "shway"],
+};
+
+/**
+ * Core curated entries win over extended rule-generated syllables: an extended
+ * key is dropped when it collides with a core key or with any roman variant of a
+ * core key (e.g. extended "Kyee" must not shadow core Kyi's "kyee" variant).
+ * Core keys come first so the dictionary generator gives shared variants to the
+ * curated spelling.
+ */
+const CORE_ROMAN = new Set(
+  Object.keys(CORE_GOLDEN_SYLLABLES).flatMap((key) => {
+    const lower = key.toLowerCase();
+    return [lower, ...(ROMAN_VARIANTS[lower] ?? [])].map((v) => v.toLowerCase());
+  }),
+);
+
+export const GOLDEN_SYLLABLES: Record<string, string> = {
+  ...CORE_GOLDEN_SYLLABLES,
+  ...Object.fromEntries(
+    Object.entries(EXTENDED_GOLDEN_SYLLABLES).filter(([key]) => !CORE_ROMAN.has(key.toLowerCase())),
+  ),
 };
 
 export const TITLE_KEYS = new Set(["Mg", "Maung", "U", "Daw", "Ko", "Ma", "Saw", "Naw", "Sai", "Nang", "Dr"]);

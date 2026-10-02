@@ -32,8 +32,8 @@ function buildRhymes(): Set<string> {
     "ို", "ို့", "ိုး",
     "ံ", "ံ့", "ုံ", "ုံ့", "ုံး",
     "ယ်",
-    // Common Pali/loan finals seen in names (ဗိုလ်, ဉာဏ်, ဟေမာန်).
-    "ိုလ်", "ာဏ်", "ာန်",
+    // Common Pali/loan finals seen in names (ဗိုလ်, ဉာဏ်, ဂုဏ်, ဟေမာန်).
+    "ိုလ်", "ာဏ်", "ုဏ်", "ာန်",
   ]);
   const nasal = (prefix: string, finals: string[]) => {
     for (const n of finals) {
