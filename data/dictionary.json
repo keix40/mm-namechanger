@@ -1951,8 +1951,12 @@
       ],
       "spellings": [
         {
-          "text": "ယ",
+          "text": "ရ",
           "weight": 1
+        },
+        {
+          "text": "ယ",
+          "weight": 0.85
         }
       ],
       "kind": "given"
@@ -2848,6 +2852,34 @@
         {
           "text": "သူ",
           "weight": 1
+        }
+      ],
+      "kind": "given"
+    },
+    {
+      "variants": [
+        "thuya"
+      ],
+      "spellings": [
+        {
+          "text": "သူရ",
+          "weight": 1
+        }
+      ],
+      "kind": "given"
+    },
+    {
+      "variants": [
+        "ba"
+      ],
+      "spellings": [
+        {
+          "text": "ဘ",
+          "weight": 1
+        },
+        {
+          "text": "ဗ",
+          "weight": 0.85
         }
       ],
       "kind": "given"

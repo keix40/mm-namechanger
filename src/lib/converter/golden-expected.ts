@@ -103,14 +103,16 @@ export const GOLDEN: Record<string, string> = {
   "Sai Aung": "စိုင်းအောင်",
   "Nay Phone Kyi": "နေဖုန်းကြည်",
   "Mya Thu": "မြသူ",
-  "Thu Ya": "သူယ",
+  "Thu Ya": "သူရ",
+  "Thuya": "သူရ",
   "Ni Ni": "နီနီ",
   "Sein Shwe": "စိန်ရွှေ",
   "Tint Tint": "တင့်တင့်",
   "Kyaw Lin Htet": "ကျော်လင်းထက်",
   "Daw Khin Mar": "ဒေါ်ခင်မာ",
   "U Win": "ဦးဝင်း",
-  "Mg Ba": "မောင်ဗ",
+  "Mg Ba": "မောင်ဘ",
+  "Ba Tin": "ဘတင်",
 };
 
 /** Canonical romanized syllable -> top Myanmar spelling (must be a dictionary hit). */
@@ -161,6 +163,9 @@ const CORE_GOLDEN_SYLLABLES: Record<string, string> = {
   Suu: "စု",
   Hlaing: "လှိုင်",
   Thu: "သူ",
+  Thuya: "သူရ",
+  Ya: "ရ",
+  Ba: "ဘ",
   Win: "ဝင်း",
   Soe: "စိုး",
   Mya: "မြ",
@@ -301,6 +306,8 @@ export const ALTERNATE_SPELLINGS: Record<string, string> = {
   Su: "ဆု",
   Si: "စီ",
   Sin: "ဆင်",
+  Ya: "ယ",
+  Ba: "ဗ",
 };
 
 export const ROMAN_VARIANTS: Record<string, string[]> = {
