@@ -13,7 +13,7 @@ Convert English-romanized Myanmar (Burmese) **personal names** into Myanmar scri
 | Mg Mg | မောင်မောင် |
 | Aung Kyaw | အောင်ကျော် |
 | Daw Khin Myo | ဒေါ်ခင်မျိုး |
-| Htoo Aung Ye Yint | ထူးအောင်ရဲယင့် |
+| Htoo Aung Ye Yint | ထူးအောင်ရဲရင့် |
 
 Names often have multiple valid spellings; the API returns ranked alternatives with confidence scores.
 
