@@ -13,7 +13,7 @@
     "validate:dictionary": "tsx scripts/validate-dictionary.ts"
   },
   "dependencies": {
-    "next": "15.5.27",
+    "next": "16.3.6",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "zod": "^4.6.5"
